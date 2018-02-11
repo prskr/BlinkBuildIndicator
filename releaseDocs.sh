@@ -17,13 +17,13 @@ echo "Switching to gh-pages branch"
 git checkout gh-pages
 
 echo "Clear repo directory"
-#git rm -r *
+git rm -r *
 
 echo "Copy documentation into the repo"
-#cp -r $TEMP_REPO_DIR .
+cp -r $TEMP_REPO_DIR .
 
 echo "Push the new docs to the remote branch"
-#git add . -A
-#git commit -m "Update generated documentation"
-#git push origin gh-pages
-#git checkout master
+git add . -A
+git commit -m "Update generated documentation"
+git push origin gh-pages
+git checkout master
