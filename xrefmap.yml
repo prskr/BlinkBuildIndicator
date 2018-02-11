@@ -1,6 +1,78 @@
 ### YamlMime:XRefMap
 sorted: true
 references:
+- uid: BBI.CIPluginTests.Common
+  name: BBI.CIPluginTests.Common
+  href: api/BBI.CIPluginTests.Common.html
+  commentId: N:BBI.CIPluginTests.Common
+  fullName: BBI.CIPluginTests.Common
+  nameWithType: BBI.CIPluginTests.Common
+- uid: BBI.CIPluginTests.Common.CIPluginTestHost
+  name: CIPluginTestHost
+  href: api/BBI.CIPluginTests.Common.CIPluginTestHost.html
+  commentId: T:BBI.CIPluginTests.Common.CIPluginTestHost
+  fullName: BBI.CIPluginTests.Common.CIPluginTestHost
+  nameWithType: CIPluginTestHost
+- uid: BBI.CIPluginTests.Common.CIPluginTestHost.#ctor
+  name: CIPluginTestHost()
+  href: api/BBI.CIPluginTests.Common.CIPluginTestHost.html#BBI_CIPluginTests_Common_CIPluginTestHost__ctor
+  commentId: M:BBI.CIPluginTests.Common.CIPluginTestHost.#ctor
+  fullName: BBI.CIPluginTests.Common.CIPluginTestHost.CIPluginTestHost()
+  nameWithType: CIPluginTestHost.CIPluginTestHost()
+- uid: BBI.CIPluginTests.Common.CIPluginTestHost.#ctor*
+  name: CIPluginTestHost
+  href: api/BBI.CIPluginTests.Common.CIPluginTestHost.html#BBI_CIPluginTests_Common_CIPluginTestHost__ctor_
+  commentId: Overload:BBI.CIPluginTests.Common.CIPluginTestHost.#ctor
+  fullName: BBI.CIPluginTests.Common.CIPluginTestHost.CIPluginTestHost
+  nameWithType: CIPluginTestHost.CIPluginTestHost
+- uid: BBI.CIPluginTests.Common.CIPluginTestHost.ContactPlugin(System.String)
+  name: ContactPlugin(String)
+  href: api/BBI.CIPluginTests.Common.CIPluginTestHost.html#BBI_CIPluginTests_Common_CIPluginTestHost_ContactPlugin_System_String_
+  commentId: M:BBI.CIPluginTests.Common.CIPluginTestHost.ContactPlugin(System.String)
+  fullName: BBI.CIPluginTests.Common.CIPluginTestHost.ContactPlugin(System.String)
+  nameWithType: CIPluginTestHost.ContactPlugin(String)
+- uid: BBI.CIPluginTests.Common.CIPluginTestHost.ContactPlugin*
+  name: ContactPlugin
+  href: api/BBI.CIPluginTests.Common.CIPluginTestHost.html#BBI_CIPluginTests_Common_CIPluginTestHost_ContactPlugin_
+  commentId: Overload:BBI.CIPluginTests.Common.CIPluginTestHost.ContactPlugin
+  fullName: BBI.CIPluginTests.Common.CIPluginTestHost.ContactPlugin
+  nameWithType: CIPluginTestHost.ContactPlugin
+- uid: BBI.CIPluginTests.Common.CIPluginTestHost.Register(BBI.Common.Protobuf.PluginRegistration,Grpc.Core.ServerCallContext)
+  name: Register(PluginRegistration, ServerCallContext)
+  href: api/BBI.CIPluginTests.Common.CIPluginTestHost.html#BBI_CIPluginTests_Common_CIPluginTestHost_Register_BBI_Common_Protobuf_PluginRegistration_Grpc_Core_ServerCallContext_
+  commentId: M:BBI.CIPluginTests.Common.CIPluginTestHost.Register(BBI.Common.Protobuf.PluginRegistration,Grpc.Core.ServerCallContext)
+  fullName: BBI.CIPluginTests.Common.CIPluginTestHost.Register(BBI.Common.Protobuf.PluginRegistration, Grpc.Core.ServerCallContext)
+  nameWithType: CIPluginTestHost.Register(PluginRegistration, ServerCallContext)
+- uid: BBI.CIPluginTests.Common.CIPluginTestHost.Register*
+  name: Register
+  href: api/BBI.CIPluginTests.Common.CIPluginTestHost.html#BBI_CIPluginTests_Common_CIPluginTestHost_Register_
+  commentId: Overload:BBI.CIPluginTests.Common.CIPluginTestHost.Register
+  fullName: BBI.CIPluginTests.Common.CIPluginTestHost.Register
+  nameWithType: CIPluginTestHost.Register
+- uid: BBI.Common
+  name: BBI.Common
+  href: api/BBI.Common.html
+  commentId: N:BBI.Common
+  fullName: BBI.Common
+  nameWithType: BBI.Common
+- uid: BBI.Common.BBIConstants
+  name: BBIConstants
+  href: api/BBI.Common.BBIConstants.html
+  commentId: T:BBI.Common.BBIConstants
+  fullName: BBI.Common.BBIConstants
+  nameWithType: BBIConstants
+- uid: BBI.Common.BBIConstants.PLUGIN_HOST_IP
+  name: PLUGIN_HOST_IP
+  href: api/BBI.Common.BBIConstants.html#BBI_Common_BBIConstants_PLUGIN_HOST_IP
+  commentId: F:BBI.Common.BBIConstants.PLUGIN_HOST_IP
+  fullName: BBI.Common.BBIConstants.PLUGIN_HOST_IP
+  nameWithType: BBIConstants.PLUGIN_HOST_IP
+- uid: BBI.Common.BBIConstants.PLUGIN_HOST_PORT
+  name: PLUGIN_HOST_PORT
+  href: api/BBI.Common.BBIConstants.html#BBI_Common_BBIConstants_PLUGIN_HOST_PORT
+  commentId: F:BBI.Common.BBIConstants.PLUGIN_HOST_PORT
+  fullName: BBI.Common.BBIConstants.PLUGIN_HOST_PORT
+  nameWithType: BBIConstants.PLUGIN_HOST_PORT
 - uid: BBI.Common.Configuration
   name: BBI.Common.Configuration
   href: api/BBI.Common.Configuration.html
@@ -55,6 +127,48 @@ references:
   commentId: Overload:BBI.Common.Configuration.ColorConfig.SuccessColor
   fullName: BBI.Common.Configuration.ColorConfig.SuccessColor
   nameWithType: ColorConfig.SuccessColor
+- uid: BBI.Common.Exceptions
+  name: BBI.Common.Exceptions
+  href: api/BBI.Common.Exceptions.html
+  commentId: N:BBI.Common.Exceptions
+  fullName: BBI.Common.Exceptions
+  nameWithType: BBI.Common.Exceptions
+- uid: BBI.Common.Exceptions.PluginNotRegisteredException
+  name: PluginNotRegisteredException
+  href: api/BBI.Common.Exceptions.PluginNotRegisteredException.html
+  commentId: T:BBI.Common.Exceptions.PluginNotRegisteredException
+  fullName: BBI.Common.Exceptions.PluginNotRegisteredException
+  nameWithType: PluginNotRegisteredException
+- uid: BBI.Common.Exceptions.PluginNotRegisteredException.#ctor
+  name: PluginNotRegisteredException()
+  href: api/BBI.Common.Exceptions.PluginNotRegisteredException.html#BBI_Common_Exceptions_PluginNotRegisteredException__ctor
+  commentId: M:BBI.Common.Exceptions.PluginNotRegisteredException.#ctor
+  fullName: BBI.Common.Exceptions.PluginNotRegisteredException.PluginNotRegisteredException()
+  nameWithType: PluginNotRegisteredException.PluginNotRegisteredException()
+- uid: BBI.Common.Exceptions.PluginNotRegisteredException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  name: PluginNotRegisteredException(SerializationInfo, StreamingContext)
+  href: api/BBI.Common.Exceptions.PluginNotRegisteredException.html#BBI_Common_Exceptions_PluginNotRegisteredException__ctor_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext_
+  commentId: M:BBI.Common.Exceptions.PluginNotRegisteredException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  fullName: BBI.Common.Exceptions.PluginNotRegisteredException.PluginNotRegisteredException(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)
+  nameWithType: PluginNotRegisteredException.PluginNotRegisteredException(SerializationInfo, StreamingContext)
+- uid: BBI.Common.Exceptions.PluginNotRegisteredException.#ctor(System.String)
+  name: PluginNotRegisteredException(String)
+  href: api/BBI.Common.Exceptions.PluginNotRegisteredException.html#BBI_Common_Exceptions_PluginNotRegisteredException__ctor_System_String_
+  commentId: M:BBI.Common.Exceptions.PluginNotRegisteredException.#ctor(System.String)
+  fullName: BBI.Common.Exceptions.PluginNotRegisteredException.PluginNotRegisteredException(System.String)
+  nameWithType: PluginNotRegisteredException.PluginNotRegisteredException(String)
+- uid: BBI.Common.Exceptions.PluginNotRegisteredException.#ctor(System.String,System.Exception)
+  name: PluginNotRegisteredException(String, Exception)
+  href: api/BBI.Common.Exceptions.PluginNotRegisteredException.html#BBI_Common_Exceptions_PluginNotRegisteredException__ctor_System_String_System_Exception_
+  commentId: M:BBI.Common.Exceptions.PluginNotRegisteredException.#ctor(System.String,System.Exception)
+  fullName: BBI.Common.Exceptions.PluginNotRegisteredException.PluginNotRegisteredException(System.String, System.Exception)
+  nameWithType: PluginNotRegisteredException.PluginNotRegisteredException(String, Exception)
+- uid: BBI.Common.Exceptions.PluginNotRegisteredException.#ctor*
+  name: PluginNotRegisteredException
+  href: api/BBI.Common.Exceptions.PluginNotRegisteredException.html#BBI_Common_Exceptions_PluginNotRegisteredException__ctor_
+  commentId: Overload:BBI.Common.Exceptions.PluginNotRegisteredException.#ctor
+  fullName: BBI.Common.Exceptions.PluginNotRegisteredException.PluginNotRegisteredException
+  nameWithType: PluginNotRegisteredException.PluginNotRegisteredException
 - uid: BBI.Common.Protobuf
   name: BBI.Common.Protobuf
   href: api/BBI.Common.Protobuf.html
@@ -187,6 +301,24 @@ references:
   commentId: Overload:BBI.Common.Protobuf.CIRequest.GetHashCode
   fullName: BBI.Common.Protobuf.CIRequest.GetHashCode
   nameWithType: CIRequest.GetHashCode
+- uid: BBI.Common.Protobuf.CIRequest.Google#Protobuf#IMessage#Descriptor
+  name: IMessage.Descriptor
+  href: api/BBI.Common.Protobuf.CIRequest.html#BBI_Common_Protobuf_CIRequest_Google_Protobuf_IMessage_Descriptor
+  commentId: P:BBI.Common.Protobuf.CIRequest.Google#Protobuf#IMessage#Descriptor
+  name.vb: pb::Google.Protobuf.IMessage.Descriptor
+  fullName: BBI.Common.Protobuf.CIRequest.Google.Protobuf.IMessage.Descriptor
+  fullName.vb: BBI.Common.Protobuf.CIRequest.pb::Google.Protobuf.IMessage.Descriptor
+  nameWithType: CIRequest.IMessage.Descriptor
+  nameWithType.vb: CIRequest.pb::Google.Protobuf.IMessage.Descriptor
+- uid: BBI.Common.Protobuf.CIRequest.Google#Protobuf#IMessage#Descriptor*
+  name: IMessage.Descriptor
+  href: api/BBI.Common.Protobuf.CIRequest.html#BBI_Common_Protobuf_CIRequest_Google_Protobuf_IMessage_Descriptor_
+  commentId: Overload:BBI.Common.Protobuf.CIRequest.Google#Protobuf#IMessage#Descriptor
+  name.vb: pb::Google.Protobuf.IMessage.Descriptor
+  fullName: BBI.Common.Protobuf.CIRequest.Google.Protobuf.IMessage.Descriptor
+  fullName.vb: BBI.Common.Protobuf.CIRequest.pb::Google.Protobuf.IMessage.Descriptor
+  nameWithType: CIRequest.IMessage.Descriptor
+  nameWithType.vb: CIRequest.pb::Google.Protobuf.IMessage.Descriptor
 - uid: BBI.Common.Protobuf.CIRequest.MergeFrom(BBI.Common.Protobuf.CIRequest)
   name: MergeFrom(CIRequest)
   href: api/BBI.Common.Protobuf.CIRequest.html#BBI_Common_Protobuf_CIRequest_MergeFrom_BBI_Common_Protobuf_CIRequest_
@@ -194,11 +326,11 @@ references:
   fullName: BBI.Common.Protobuf.CIRequest.MergeFrom(BBI.Common.Protobuf.CIRequest)
   nameWithType: CIRequest.MergeFrom(CIRequest)
 - uid: BBI.Common.Protobuf.CIRequest.MergeFrom(Google.Protobuf.CodedInputStream)
-  name: MergeFrom(Google.Protobuf.CodedInputStream)
+  name: MergeFrom(CodedInputStream)
   href: api/BBI.Common.Protobuf.CIRequest.html#BBI_Common_Protobuf_CIRequest_MergeFrom_Google_Protobuf_CodedInputStream_
   commentId: M:BBI.Common.Protobuf.CIRequest.MergeFrom(Google.Protobuf.CodedInputStream)
   fullName: BBI.Common.Protobuf.CIRequest.MergeFrom(Google.Protobuf.CodedInputStream)
-  nameWithType: CIRequest.MergeFrom(Google.Protobuf.CodedInputStream)
+  nameWithType: CIRequest.MergeFrom(CodedInputStream)
 - uid: BBI.Common.Protobuf.CIRequest.MergeFrom*
   name: MergeFrom
   href: api/BBI.Common.Protobuf.CIRequest.html#BBI_Common_Protobuf_CIRequest_MergeFrom_
@@ -284,11 +416,11 @@ references:
   fullName: BBI.Common.Protobuf.CIRequest.UseSSLFieldNumber
   nameWithType: CIRequest.UseSSLFieldNumber
 - uid: BBI.Common.Protobuf.CIRequest.WriteTo(Google.Protobuf.CodedOutputStream)
-  name: WriteTo(Google.Protobuf.CodedOutputStream)
+  name: WriteTo(CodedOutputStream)
   href: api/BBI.Common.Protobuf.CIRequest.html#BBI_Common_Protobuf_CIRequest_WriteTo_Google_Protobuf_CodedOutputStream_
   commentId: M:BBI.Common.Protobuf.CIRequest.WriteTo(Google.Protobuf.CodedOutputStream)
   fullName: BBI.Common.Protobuf.CIRequest.WriteTo(Google.Protobuf.CodedOutputStream)
-  nameWithType: CIRequest.WriteTo(Google.Protobuf.CodedOutputStream)
+  nameWithType: CIRequest.WriteTo(CodedOutputStream)
 - uid: BBI.Common.Protobuf.CIRequest.WriteTo*
   name: WriteTo
   href: api/BBI.Common.Protobuf.CIRequest.html#BBI_Common_Protobuf_CIRequest_WriteTo_
@@ -385,6 +517,24 @@ references:
   commentId: Overload:BBI.Common.Protobuf.CIResponse.GetHashCode
   fullName: BBI.Common.Protobuf.CIResponse.GetHashCode
   nameWithType: CIResponse.GetHashCode
+- uid: BBI.Common.Protobuf.CIResponse.Google#Protobuf#IMessage#Descriptor
+  name: IMessage.Descriptor
+  href: api/BBI.Common.Protobuf.CIResponse.html#BBI_Common_Protobuf_CIResponse_Google_Protobuf_IMessage_Descriptor
+  commentId: P:BBI.Common.Protobuf.CIResponse.Google#Protobuf#IMessage#Descriptor
+  name.vb: pb::Google.Protobuf.IMessage.Descriptor
+  fullName: BBI.Common.Protobuf.CIResponse.Google.Protobuf.IMessage.Descriptor
+  fullName.vb: BBI.Common.Protobuf.CIResponse.pb::Google.Protobuf.IMessage.Descriptor
+  nameWithType: CIResponse.IMessage.Descriptor
+  nameWithType.vb: CIResponse.pb::Google.Protobuf.IMessage.Descriptor
+- uid: BBI.Common.Protobuf.CIResponse.Google#Protobuf#IMessage#Descriptor*
+  name: IMessage.Descriptor
+  href: api/BBI.Common.Protobuf.CIResponse.html#BBI_Common_Protobuf_CIResponse_Google_Protobuf_IMessage_Descriptor_
+  commentId: Overload:BBI.Common.Protobuf.CIResponse.Google#Protobuf#IMessage#Descriptor
+  name.vb: pb::Google.Protobuf.IMessage.Descriptor
+  fullName: BBI.Common.Protobuf.CIResponse.Google.Protobuf.IMessage.Descriptor
+  fullName.vb: BBI.Common.Protobuf.CIResponse.pb::Google.Protobuf.IMessage.Descriptor
+  nameWithType: CIResponse.IMessage.Descriptor
+  nameWithType.vb: CIResponse.pb::Google.Protobuf.IMessage.Descriptor
 - uid: BBI.Common.Protobuf.CIResponse.MergeFrom(BBI.Common.Protobuf.CIResponse)
   name: MergeFrom(CIResponse)
   href: api/BBI.Common.Protobuf.CIResponse.html#BBI_Common_Protobuf_CIResponse_MergeFrom_BBI_Common_Protobuf_CIResponse_
@@ -392,11 +542,11 @@ references:
   fullName: BBI.Common.Protobuf.CIResponse.MergeFrom(BBI.Common.Protobuf.CIResponse)
   nameWithType: CIResponse.MergeFrom(CIResponse)
 - uid: BBI.Common.Protobuf.CIResponse.MergeFrom(Google.Protobuf.CodedInputStream)
-  name: MergeFrom(Google.Protobuf.CodedInputStream)
+  name: MergeFrom(CodedInputStream)
   href: api/BBI.Common.Protobuf.CIResponse.html#BBI_Common_Protobuf_CIResponse_MergeFrom_Google_Protobuf_CodedInputStream_
   commentId: M:BBI.Common.Protobuf.CIResponse.MergeFrom(Google.Protobuf.CodedInputStream)
   fullName: BBI.Common.Protobuf.CIResponse.MergeFrom(Google.Protobuf.CodedInputStream)
-  nameWithType: CIResponse.MergeFrom(Google.Protobuf.CodedInputStream)
+  nameWithType: CIResponse.MergeFrom(CodedInputStream)
 - uid: BBI.Common.Protobuf.CIResponse.MergeFrom*
   name: MergeFrom
   href: api/BBI.Common.Protobuf.CIResponse.html#BBI_Common_Protobuf_CIResponse_MergeFrom_
@@ -470,17 +620,557 @@ references:
   fullName: BBI.Common.Protobuf.CIResponse.Types.CIResponseType.Success
   nameWithType: CIResponse.Types.CIResponseType.Success
 - uid: BBI.Common.Protobuf.CIResponse.WriteTo(Google.Protobuf.CodedOutputStream)
-  name: WriteTo(Google.Protobuf.CodedOutputStream)
+  name: WriteTo(CodedOutputStream)
   href: api/BBI.Common.Protobuf.CIResponse.html#BBI_Common_Protobuf_CIResponse_WriteTo_Google_Protobuf_CodedOutputStream_
   commentId: M:BBI.Common.Protobuf.CIResponse.WriteTo(Google.Protobuf.CodedOutputStream)
   fullName: BBI.Common.Protobuf.CIResponse.WriteTo(Google.Protobuf.CodedOutputStream)
-  nameWithType: CIResponse.WriteTo(Google.Protobuf.CodedOutputStream)
+  nameWithType: CIResponse.WriteTo(CodedOutputStream)
 - uid: BBI.Common.Protobuf.CIResponse.WriteTo*
   name: WriteTo
   href: api/BBI.Common.Protobuf.CIResponse.html#BBI_Common_Protobuf_CIResponse_WriteTo_
   commentId: Overload:BBI.Common.Protobuf.CIResponse.WriteTo
   fullName: BBI.Common.Protobuf.CIResponse.WriteTo
   nameWithType: CIResponse.WriteTo
+- uid: BBI.Common.Protobuf.Empty
+  name: Empty
+  href: api/BBI.Common.Protobuf.Empty.html
+  commentId: T:BBI.Common.Protobuf.Empty
+  fullName: BBI.Common.Protobuf.Empty
+  nameWithType: Empty
+- uid: BBI.Common.Protobuf.Empty.#ctor
+  name: Empty()
+  href: api/BBI.Common.Protobuf.Empty.html#BBI_Common_Protobuf_Empty__ctor
+  commentId: M:BBI.Common.Protobuf.Empty.#ctor
+  fullName: BBI.Common.Protobuf.Empty.Empty()
+  nameWithType: Empty.Empty()
+- uid: BBI.Common.Protobuf.Empty.#ctor(BBI.Common.Protobuf.Empty)
+  name: Empty(Empty)
+  href: api/BBI.Common.Protobuf.Empty.html#BBI_Common_Protobuf_Empty__ctor_BBI_Common_Protobuf_Empty_
+  commentId: M:BBI.Common.Protobuf.Empty.#ctor(BBI.Common.Protobuf.Empty)
+  fullName: BBI.Common.Protobuf.Empty.Empty(BBI.Common.Protobuf.Empty)
+  nameWithType: Empty.Empty(Empty)
+- uid: BBI.Common.Protobuf.Empty.#ctor*
+  name: Empty
+  href: api/BBI.Common.Protobuf.Empty.html#BBI_Common_Protobuf_Empty__ctor_
+  commentId: Overload:BBI.Common.Protobuf.Empty.#ctor
+  fullName: BBI.Common.Protobuf.Empty.Empty
+  nameWithType: Empty.Empty
+- uid: BBI.Common.Protobuf.Empty.CalculateSize
+  name: CalculateSize()
+  href: api/BBI.Common.Protobuf.Empty.html#BBI_Common_Protobuf_Empty_CalculateSize
+  commentId: M:BBI.Common.Protobuf.Empty.CalculateSize
+  fullName: BBI.Common.Protobuf.Empty.CalculateSize()
+  nameWithType: Empty.CalculateSize()
+- uid: BBI.Common.Protobuf.Empty.CalculateSize*
+  name: CalculateSize
+  href: api/BBI.Common.Protobuf.Empty.html#BBI_Common_Protobuf_Empty_CalculateSize_
+  commentId: Overload:BBI.Common.Protobuf.Empty.CalculateSize
+  fullName: BBI.Common.Protobuf.Empty.CalculateSize
+  nameWithType: Empty.CalculateSize
+- uid: BBI.Common.Protobuf.Empty.Clone
+  name: Clone()
+  href: api/BBI.Common.Protobuf.Empty.html#BBI_Common_Protobuf_Empty_Clone
+  commentId: M:BBI.Common.Protobuf.Empty.Clone
+  fullName: BBI.Common.Protobuf.Empty.Clone()
+  nameWithType: Empty.Clone()
+- uid: BBI.Common.Protobuf.Empty.Clone*
+  name: Clone
+  href: api/BBI.Common.Protobuf.Empty.html#BBI_Common_Protobuf_Empty_Clone_
+  commentId: Overload:BBI.Common.Protobuf.Empty.Clone
+  fullName: BBI.Common.Protobuf.Empty.Clone
+  nameWithType: Empty.Clone
+- uid: BBI.Common.Protobuf.Empty.Descriptor
+  name: Descriptor
+  href: api/BBI.Common.Protobuf.Empty.html#BBI_Common_Protobuf_Empty_Descriptor
+  commentId: P:BBI.Common.Protobuf.Empty.Descriptor
+  fullName: BBI.Common.Protobuf.Empty.Descriptor
+  nameWithType: Empty.Descriptor
+- uid: BBI.Common.Protobuf.Empty.Descriptor*
+  name: Descriptor
+  href: api/BBI.Common.Protobuf.Empty.html#BBI_Common_Protobuf_Empty_Descriptor_
+  commentId: Overload:BBI.Common.Protobuf.Empty.Descriptor
+  fullName: BBI.Common.Protobuf.Empty.Descriptor
+  nameWithType: Empty.Descriptor
+- uid: BBI.Common.Protobuf.Empty.Equals(BBI.Common.Protobuf.Empty)
+  name: Equals(Empty)
+  href: api/BBI.Common.Protobuf.Empty.html#BBI_Common_Protobuf_Empty_Equals_BBI_Common_Protobuf_Empty_
+  commentId: M:BBI.Common.Protobuf.Empty.Equals(BBI.Common.Protobuf.Empty)
+  fullName: BBI.Common.Protobuf.Empty.Equals(BBI.Common.Protobuf.Empty)
+  nameWithType: Empty.Equals(Empty)
+- uid: BBI.Common.Protobuf.Empty.Equals(System.Object)
+  name: Equals(Object)
+  href: api/BBI.Common.Protobuf.Empty.html#BBI_Common_Protobuf_Empty_Equals_System_Object_
+  commentId: M:BBI.Common.Protobuf.Empty.Equals(System.Object)
+  fullName: BBI.Common.Protobuf.Empty.Equals(System.Object)
+  nameWithType: Empty.Equals(Object)
+- uid: BBI.Common.Protobuf.Empty.Equals*
+  name: Equals
+  href: api/BBI.Common.Protobuf.Empty.html#BBI_Common_Protobuf_Empty_Equals_
+  commentId: Overload:BBI.Common.Protobuf.Empty.Equals
+  fullName: BBI.Common.Protobuf.Empty.Equals
+  nameWithType: Empty.Equals
+- uid: BBI.Common.Protobuf.Empty.GetHashCode
+  name: GetHashCode()
+  href: api/BBI.Common.Protobuf.Empty.html#BBI_Common_Protobuf_Empty_GetHashCode
+  commentId: M:BBI.Common.Protobuf.Empty.GetHashCode
+  fullName: BBI.Common.Protobuf.Empty.GetHashCode()
+  nameWithType: Empty.GetHashCode()
+- uid: BBI.Common.Protobuf.Empty.GetHashCode*
+  name: GetHashCode
+  href: api/BBI.Common.Protobuf.Empty.html#BBI_Common_Protobuf_Empty_GetHashCode_
+  commentId: Overload:BBI.Common.Protobuf.Empty.GetHashCode
+  fullName: BBI.Common.Protobuf.Empty.GetHashCode
+  nameWithType: Empty.GetHashCode
+- uid: BBI.Common.Protobuf.Empty.Google#Protobuf#IMessage#Descriptor
+  name: IMessage.Descriptor
+  href: api/BBI.Common.Protobuf.Empty.html#BBI_Common_Protobuf_Empty_Google_Protobuf_IMessage_Descriptor
+  commentId: P:BBI.Common.Protobuf.Empty.Google#Protobuf#IMessage#Descriptor
+  name.vb: pb::Google.Protobuf.IMessage.Descriptor
+  fullName: BBI.Common.Protobuf.Empty.Google.Protobuf.IMessage.Descriptor
+  fullName.vb: BBI.Common.Protobuf.Empty.pb::Google.Protobuf.IMessage.Descriptor
+  nameWithType: Empty.IMessage.Descriptor
+  nameWithType.vb: Empty.pb::Google.Protobuf.IMessage.Descriptor
+- uid: BBI.Common.Protobuf.Empty.Google#Protobuf#IMessage#Descriptor*
+  name: IMessage.Descriptor
+  href: api/BBI.Common.Protobuf.Empty.html#BBI_Common_Protobuf_Empty_Google_Protobuf_IMessage_Descriptor_
+  commentId: Overload:BBI.Common.Protobuf.Empty.Google#Protobuf#IMessage#Descriptor
+  name.vb: pb::Google.Protobuf.IMessage.Descriptor
+  fullName: BBI.Common.Protobuf.Empty.Google.Protobuf.IMessage.Descriptor
+  fullName.vb: BBI.Common.Protobuf.Empty.pb::Google.Protobuf.IMessage.Descriptor
+  nameWithType: Empty.IMessage.Descriptor
+  nameWithType.vb: Empty.pb::Google.Protobuf.IMessage.Descriptor
+- uid: BBI.Common.Protobuf.Empty.MergeFrom(BBI.Common.Protobuf.Empty)
+  name: MergeFrom(Empty)
+  href: api/BBI.Common.Protobuf.Empty.html#BBI_Common_Protobuf_Empty_MergeFrom_BBI_Common_Protobuf_Empty_
+  commentId: M:BBI.Common.Protobuf.Empty.MergeFrom(BBI.Common.Protobuf.Empty)
+  fullName: BBI.Common.Protobuf.Empty.MergeFrom(BBI.Common.Protobuf.Empty)
+  nameWithType: Empty.MergeFrom(Empty)
+- uid: BBI.Common.Protobuf.Empty.MergeFrom(Google.Protobuf.CodedInputStream)
+  name: MergeFrom(CodedInputStream)
+  href: api/BBI.Common.Protobuf.Empty.html#BBI_Common_Protobuf_Empty_MergeFrom_Google_Protobuf_CodedInputStream_
+  commentId: M:BBI.Common.Protobuf.Empty.MergeFrom(Google.Protobuf.CodedInputStream)
+  fullName: BBI.Common.Protobuf.Empty.MergeFrom(Google.Protobuf.CodedInputStream)
+  nameWithType: Empty.MergeFrom(CodedInputStream)
+- uid: BBI.Common.Protobuf.Empty.MergeFrom*
+  name: MergeFrom
+  href: api/BBI.Common.Protobuf.Empty.html#BBI_Common_Protobuf_Empty_MergeFrom_
+  commentId: Overload:BBI.Common.Protobuf.Empty.MergeFrom
+  fullName: BBI.Common.Protobuf.Empty.MergeFrom
+  nameWithType: Empty.MergeFrom
+- uid: BBI.Common.Protobuf.Empty.Parser
+  name: Parser
+  href: api/BBI.Common.Protobuf.Empty.html#BBI_Common_Protobuf_Empty_Parser
+  commentId: P:BBI.Common.Protobuf.Empty.Parser
+  fullName: BBI.Common.Protobuf.Empty.Parser
+  nameWithType: Empty.Parser
+- uid: BBI.Common.Protobuf.Empty.Parser*
+  name: Parser
+  href: api/BBI.Common.Protobuf.Empty.html#BBI_Common_Protobuf_Empty_Parser_
+  commentId: Overload:BBI.Common.Protobuf.Empty.Parser
+  fullName: BBI.Common.Protobuf.Empty.Parser
+  nameWithType: Empty.Parser
+- uid: BBI.Common.Protobuf.Empty.ToString
+  name: ToString()
+  href: api/BBI.Common.Protobuf.Empty.html#BBI_Common_Protobuf_Empty_ToString
+  commentId: M:BBI.Common.Protobuf.Empty.ToString
+  fullName: BBI.Common.Protobuf.Empty.ToString()
+  nameWithType: Empty.ToString()
+- uid: BBI.Common.Protobuf.Empty.ToString*
+  name: ToString
+  href: api/BBI.Common.Protobuf.Empty.html#BBI_Common_Protobuf_Empty_ToString_
+  commentId: Overload:BBI.Common.Protobuf.Empty.ToString
+  fullName: BBI.Common.Protobuf.Empty.ToString
+  nameWithType: Empty.ToString
+- uid: BBI.Common.Protobuf.Empty.WriteTo(Google.Protobuf.CodedOutputStream)
+  name: WriteTo(CodedOutputStream)
+  href: api/BBI.Common.Protobuf.Empty.html#BBI_Common_Protobuf_Empty_WriteTo_Google_Protobuf_CodedOutputStream_
+  commentId: M:BBI.Common.Protobuf.Empty.WriteTo(Google.Protobuf.CodedOutputStream)
+  fullName: BBI.Common.Protobuf.Empty.WriteTo(Google.Protobuf.CodedOutputStream)
+  nameWithType: Empty.WriteTo(CodedOutputStream)
+- uid: BBI.Common.Protobuf.Empty.WriteTo*
+  name: WriteTo
+  href: api/BBI.Common.Protobuf.Empty.html#BBI_Common_Protobuf_Empty_WriteTo_
+  commentId: Overload:BBI.Common.Protobuf.Empty.WriteTo
+  fullName: BBI.Common.Protobuf.Empty.WriteTo
+  nameWithType: Empty.WriteTo
+- uid: BBI.Common.Protobuf.Plugin
+  name: BBI.Common.Protobuf.Plugin
+  href: api/BBI.Common.Protobuf.Plugin.html
+  commentId: N:BBI.Common.Protobuf.Plugin
+  fullName: BBI.Common.Protobuf.Plugin
+  nameWithType: BBI.Common.Protobuf.Plugin
+- uid: BBI.Common.Protobuf.Plugin.CIPlugin
+  name: CIPlugin
+  href: api/BBI.Common.Protobuf.Plugin.CIPlugin.html
+  commentId: T:BBI.Common.Protobuf.Plugin.CIPlugin
+  fullName: BBI.Common.Protobuf.Plugin.CIPlugin
+  nameWithType: CIPlugin
+- uid: BBI.Common.Protobuf.Plugin.CIPlugin.BindService(BBI.Common.Protobuf.Plugin.CIPlugin.CIPluginBase)
+  name: BindService(CIPlugin.CIPluginBase)
+  href: api/BBI.Common.Protobuf.Plugin.CIPlugin.html#BBI_Common_Protobuf_Plugin_CIPlugin_BindService_BBI_Common_Protobuf_Plugin_CIPlugin_CIPluginBase_
+  commentId: M:BBI.Common.Protobuf.Plugin.CIPlugin.BindService(BBI.Common.Protobuf.Plugin.CIPlugin.CIPluginBase)
+  fullName: BBI.Common.Protobuf.Plugin.CIPlugin.BindService(BBI.Common.Protobuf.Plugin.CIPlugin.CIPluginBase)
+  nameWithType: CIPlugin.BindService(CIPlugin.CIPluginBase)
+- uid: BBI.Common.Protobuf.Plugin.CIPlugin.BindService*
+  name: BindService
+  href: api/BBI.Common.Protobuf.Plugin.CIPlugin.html#BBI_Common_Protobuf_Plugin_CIPlugin_BindService_
+  commentId: Overload:BBI.Common.Protobuf.Plugin.CIPlugin.BindService
+  fullName: BBI.Common.Protobuf.Plugin.CIPlugin.BindService
+  nameWithType: CIPlugin.BindService
+- uid: BBI.Common.Protobuf.Plugin.CIPlugin.CIPluginBase
+  name: CIPlugin.CIPluginBase
+  href: api/BBI.Common.Protobuf.Plugin.CIPlugin.CIPluginBase.html
+  commentId: T:BBI.Common.Protobuf.Plugin.CIPlugin.CIPluginBase
+  fullName: BBI.Common.Protobuf.Plugin.CIPlugin.CIPluginBase
+  nameWithType: CIPlugin.CIPluginBase
+- uid: BBI.Common.Protobuf.Plugin.CIPlugin.CIPluginBase.GetCurrentState(BBI.Common.Protobuf.CIRequest,Grpc.Core.ServerCallContext)
+  name: GetCurrentState(CIRequest, ServerCallContext)
+  href: api/BBI.Common.Protobuf.Plugin.CIPlugin.CIPluginBase.html#BBI_Common_Protobuf_Plugin_CIPlugin_CIPluginBase_GetCurrentState_BBI_Common_Protobuf_CIRequest_Grpc_Core_ServerCallContext_
+  commentId: M:BBI.Common.Protobuf.Plugin.CIPlugin.CIPluginBase.GetCurrentState(BBI.Common.Protobuf.CIRequest,Grpc.Core.ServerCallContext)
+  fullName: BBI.Common.Protobuf.Plugin.CIPlugin.CIPluginBase.GetCurrentState(BBI.Common.Protobuf.CIRequest, Grpc.Core.ServerCallContext)
+  nameWithType: CIPlugin.CIPluginBase.GetCurrentState(CIRequest, ServerCallContext)
+- uid: BBI.Common.Protobuf.Plugin.CIPlugin.CIPluginBase.GetCurrentState*
+  name: GetCurrentState
+  href: api/BBI.Common.Protobuf.Plugin.CIPlugin.CIPluginBase.html#BBI_Common_Protobuf_Plugin_CIPlugin_CIPluginBase_GetCurrentState_
+  commentId: Overload:BBI.Common.Protobuf.Plugin.CIPlugin.CIPluginBase.GetCurrentState
+  fullName: BBI.Common.Protobuf.Plugin.CIPlugin.CIPluginBase.GetCurrentState
+  nameWithType: CIPlugin.CIPluginBase.GetCurrentState
+- uid: BBI.Common.Protobuf.Plugin.CIPlugin.CIPluginBase.Shutdown(BBI.Common.Protobuf.Empty,Grpc.Core.ServerCallContext)
+  name: Shutdown(Empty, ServerCallContext)
+  href: api/BBI.Common.Protobuf.Plugin.CIPlugin.CIPluginBase.html#BBI_Common_Protobuf_Plugin_CIPlugin_CIPluginBase_Shutdown_BBI_Common_Protobuf_Empty_Grpc_Core_ServerCallContext_
+  commentId: M:BBI.Common.Protobuf.Plugin.CIPlugin.CIPluginBase.Shutdown(BBI.Common.Protobuf.Empty,Grpc.Core.ServerCallContext)
+  fullName: BBI.Common.Protobuf.Plugin.CIPlugin.CIPluginBase.Shutdown(BBI.Common.Protobuf.Empty, Grpc.Core.ServerCallContext)
+  nameWithType: CIPlugin.CIPluginBase.Shutdown(Empty, ServerCallContext)
+- uid: BBI.Common.Protobuf.Plugin.CIPlugin.CIPluginBase.Shutdown*
+  name: Shutdown
+  href: api/BBI.Common.Protobuf.Plugin.CIPlugin.CIPluginBase.html#BBI_Common_Protobuf_Plugin_CIPlugin_CIPluginBase_Shutdown_
+  commentId: Overload:BBI.Common.Protobuf.Plugin.CIPlugin.CIPluginBase.Shutdown
+  fullName: BBI.Common.Protobuf.Plugin.CIPlugin.CIPluginBase.Shutdown
+  nameWithType: CIPlugin.CIPluginBase.Shutdown
+- uid: BBI.Common.Protobuf.Plugin.CIPlugin.CIPluginClient
+  name: CIPlugin.CIPluginClient
+  href: api/BBI.Common.Protobuf.Plugin.CIPlugin.CIPluginClient.html
+  commentId: T:BBI.Common.Protobuf.Plugin.CIPlugin.CIPluginClient
+  fullName: BBI.Common.Protobuf.Plugin.CIPlugin.CIPluginClient
+  nameWithType: CIPlugin.CIPluginClient
+- uid: BBI.Common.Protobuf.Plugin.CIPlugin.CIPluginClient.#ctor
+  name: CIPluginClient()
+  href: api/BBI.Common.Protobuf.Plugin.CIPlugin.CIPluginClient.html#BBI_Common_Protobuf_Plugin_CIPlugin_CIPluginClient__ctor
+  commentId: M:BBI.Common.Protobuf.Plugin.CIPlugin.CIPluginClient.#ctor
+  fullName: BBI.Common.Protobuf.Plugin.CIPlugin.CIPluginClient.CIPluginClient()
+  nameWithType: CIPlugin.CIPluginClient.CIPluginClient()
+- uid: BBI.Common.Protobuf.Plugin.CIPlugin.CIPluginClient.#ctor(Grpc.Core.CallInvoker)
+  name: CIPluginClient(CallInvoker)
+  href: api/BBI.Common.Protobuf.Plugin.CIPlugin.CIPluginClient.html#BBI_Common_Protobuf_Plugin_CIPlugin_CIPluginClient__ctor_Grpc_Core_CallInvoker_
+  commentId: M:BBI.Common.Protobuf.Plugin.CIPlugin.CIPluginClient.#ctor(Grpc.Core.CallInvoker)
+  fullName: BBI.Common.Protobuf.Plugin.CIPlugin.CIPluginClient.CIPluginClient(Grpc.Core.CallInvoker)
+  nameWithType: CIPlugin.CIPluginClient.CIPluginClient(CallInvoker)
+- uid: BBI.Common.Protobuf.Plugin.CIPlugin.CIPluginClient.#ctor(Grpc.Core.Channel)
+  name: CIPluginClient(Channel)
+  href: api/BBI.Common.Protobuf.Plugin.CIPlugin.CIPluginClient.html#BBI_Common_Protobuf_Plugin_CIPlugin_CIPluginClient__ctor_Grpc_Core_Channel_
+  commentId: M:BBI.Common.Protobuf.Plugin.CIPlugin.CIPluginClient.#ctor(Grpc.Core.Channel)
+  fullName: BBI.Common.Protobuf.Plugin.CIPlugin.CIPluginClient.CIPluginClient(Grpc.Core.Channel)
+  nameWithType: CIPlugin.CIPluginClient.CIPluginClient(Channel)
+- uid: BBI.Common.Protobuf.Plugin.CIPlugin.CIPluginClient.#ctor(Grpc.Core.ClientBase.ClientBaseConfiguration)
+  name: CIPluginClient(ClientBase.ClientBaseConfiguration)
+  href: api/BBI.Common.Protobuf.Plugin.CIPlugin.CIPluginClient.html#BBI_Common_Protobuf_Plugin_CIPlugin_CIPluginClient__ctor_Grpc_Core_ClientBase_ClientBaseConfiguration_
+  commentId: M:BBI.Common.Protobuf.Plugin.CIPlugin.CIPluginClient.#ctor(Grpc.Core.ClientBase.ClientBaseConfiguration)
+  fullName: BBI.Common.Protobuf.Plugin.CIPlugin.CIPluginClient.CIPluginClient(Grpc.Core.ClientBase.ClientBaseConfiguration)
+  nameWithType: CIPlugin.CIPluginClient.CIPluginClient(ClientBase.ClientBaseConfiguration)
+- uid: BBI.Common.Protobuf.Plugin.CIPlugin.CIPluginClient.#ctor*
+  name: CIPluginClient
+  href: api/BBI.Common.Protobuf.Plugin.CIPlugin.CIPluginClient.html#BBI_Common_Protobuf_Plugin_CIPlugin_CIPluginClient__ctor_
+  commentId: Overload:BBI.Common.Protobuf.Plugin.CIPlugin.CIPluginClient.#ctor
+  fullName: BBI.Common.Protobuf.Plugin.CIPlugin.CIPluginClient.CIPluginClient
+  nameWithType: CIPlugin.CIPluginClient.CIPluginClient
+- uid: BBI.Common.Protobuf.Plugin.CIPlugin.CIPluginClient.GetCurrentState(BBI.Common.Protobuf.CIRequest,Grpc.Core.CallOptions)
+  name: GetCurrentState(CIRequest, CallOptions)
+  href: api/BBI.Common.Protobuf.Plugin.CIPlugin.CIPluginClient.html#BBI_Common_Protobuf_Plugin_CIPlugin_CIPluginClient_GetCurrentState_BBI_Common_Protobuf_CIRequest_Grpc_Core_CallOptions_
+  commentId: M:BBI.Common.Protobuf.Plugin.CIPlugin.CIPluginClient.GetCurrentState(BBI.Common.Protobuf.CIRequest,Grpc.Core.CallOptions)
+  fullName: BBI.Common.Protobuf.Plugin.CIPlugin.CIPluginClient.GetCurrentState(BBI.Common.Protobuf.CIRequest, Grpc.Core.CallOptions)
+  nameWithType: CIPlugin.CIPluginClient.GetCurrentState(CIRequest, CallOptions)
+- uid: BBI.Common.Protobuf.Plugin.CIPlugin.CIPluginClient.GetCurrentState(BBI.Common.Protobuf.CIRequest,Grpc.Core.Metadata,System.Nullable{System.DateTime},System.Threading.CancellationToken)
+  name: GetCurrentState(CIRequest, Metadata, Nullable<DateTime>, CancellationToken)
+  href: api/BBI.Common.Protobuf.Plugin.CIPlugin.CIPluginClient.html#BBI_Common_Protobuf_Plugin_CIPlugin_CIPluginClient_GetCurrentState_BBI_Common_Protobuf_CIRequest_Grpc_Core_Metadata_System_Nullable_System_DateTime__System_Threading_CancellationToken_
+  commentId: M:BBI.Common.Protobuf.Plugin.CIPlugin.CIPluginClient.GetCurrentState(BBI.Common.Protobuf.CIRequest,Grpc.Core.Metadata,System.Nullable{System.DateTime},System.Threading.CancellationToken)
+  name.vb: GetCurrentState(CIRequest, Metadata, Nullable(Of DateTime), CancellationToken)
+  fullName: BBI.Common.Protobuf.Plugin.CIPlugin.CIPluginClient.GetCurrentState(BBI.Common.Protobuf.CIRequest, Grpc.Core.Metadata, System.Nullable<System.DateTime>, System.Threading.CancellationToken)
+  fullName.vb: BBI.Common.Protobuf.Plugin.CIPlugin.CIPluginClient.GetCurrentState(BBI.Common.Protobuf.CIRequest, Grpc.Core.Metadata, System.Nullable(Of System.DateTime), System.Threading.CancellationToken)
+  nameWithType: CIPlugin.CIPluginClient.GetCurrentState(CIRequest, Metadata, Nullable<DateTime>, CancellationToken)
+  nameWithType.vb: CIPlugin.CIPluginClient.GetCurrentState(CIRequest, Metadata, Nullable(Of DateTime), CancellationToken)
+- uid: BBI.Common.Protobuf.Plugin.CIPlugin.CIPluginClient.GetCurrentState*
+  name: GetCurrentState
+  href: api/BBI.Common.Protobuf.Plugin.CIPlugin.CIPluginClient.html#BBI_Common_Protobuf_Plugin_CIPlugin_CIPluginClient_GetCurrentState_
+  commentId: Overload:BBI.Common.Protobuf.Plugin.CIPlugin.CIPluginClient.GetCurrentState
+  fullName: BBI.Common.Protobuf.Plugin.CIPlugin.CIPluginClient.GetCurrentState
+  nameWithType: CIPlugin.CIPluginClient.GetCurrentState
+- uid: BBI.Common.Protobuf.Plugin.CIPlugin.CIPluginClient.GetCurrentStateAsync(BBI.Common.Protobuf.CIRequest,Grpc.Core.CallOptions)
+  name: GetCurrentStateAsync(CIRequest, CallOptions)
+  href: api/BBI.Common.Protobuf.Plugin.CIPlugin.CIPluginClient.html#BBI_Common_Protobuf_Plugin_CIPlugin_CIPluginClient_GetCurrentStateAsync_BBI_Common_Protobuf_CIRequest_Grpc_Core_CallOptions_
+  commentId: M:BBI.Common.Protobuf.Plugin.CIPlugin.CIPluginClient.GetCurrentStateAsync(BBI.Common.Protobuf.CIRequest,Grpc.Core.CallOptions)
+  fullName: BBI.Common.Protobuf.Plugin.CIPlugin.CIPluginClient.GetCurrentStateAsync(BBI.Common.Protobuf.CIRequest, Grpc.Core.CallOptions)
+  nameWithType: CIPlugin.CIPluginClient.GetCurrentStateAsync(CIRequest, CallOptions)
+- uid: BBI.Common.Protobuf.Plugin.CIPlugin.CIPluginClient.GetCurrentStateAsync(BBI.Common.Protobuf.CIRequest,Grpc.Core.Metadata,System.Nullable{System.DateTime},System.Threading.CancellationToken)
+  name: GetCurrentStateAsync(CIRequest, Metadata, Nullable<DateTime>, CancellationToken)
+  href: api/BBI.Common.Protobuf.Plugin.CIPlugin.CIPluginClient.html#BBI_Common_Protobuf_Plugin_CIPlugin_CIPluginClient_GetCurrentStateAsync_BBI_Common_Protobuf_CIRequest_Grpc_Core_Metadata_System_Nullable_System_DateTime__System_Threading_CancellationToken_
+  commentId: M:BBI.Common.Protobuf.Plugin.CIPlugin.CIPluginClient.GetCurrentStateAsync(BBI.Common.Protobuf.CIRequest,Grpc.Core.Metadata,System.Nullable{System.DateTime},System.Threading.CancellationToken)
+  name.vb: GetCurrentStateAsync(CIRequest, Metadata, Nullable(Of DateTime), CancellationToken)
+  fullName: BBI.Common.Protobuf.Plugin.CIPlugin.CIPluginClient.GetCurrentStateAsync(BBI.Common.Protobuf.CIRequest, Grpc.Core.Metadata, System.Nullable<System.DateTime>, System.Threading.CancellationToken)
+  fullName.vb: BBI.Common.Protobuf.Plugin.CIPlugin.CIPluginClient.GetCurrentStateAsync(BBI.Common.Protobuf.CIRequest, Grpc.Core.Metadata, System.Nullable(Of System.DateTime), System.Threading.CancellationToken)
+  nameWithType: CIPlugin.CIPluginClient.GetCurrentStateAsync(CIRequest, Metadata, Nullable<DateTime>, CancellationToken)
+  nameWithType.vb: CIPlugin.CIPluginClient.GetCurrentStateAsync(CIRequest, Metadata, Nullable(Of DateTime), CancellationToken)
+- uid: BBI.Common.Protobuf.Plugin.CIPlugin.CIPluginClient.GetCurrentStateAsync*
+  name: GetCurrentStateAsync
+  href: api/BBI.Common.Protobuf.Plugin.CIPlugin.CIPluginClient.html#BBI_Common_Protobuf_Plugin_CIPlugin_CIPluginClient_GetCurrentStateAsync_
+  commentId: Overload:BBI.Common.Protobuf.Plugin.CIPlugin.CIPluginClient.GetCurrentStateAsync
+  fullName: BBI.Common.Protobuf.Plugin.CIPlugin.CIPluginClient.GetCurrentStateAsync
+  nameWithType: CIPlugin.CIPluginClient.GetCurrentStateAsync
+- uid: BBI.Common.Protobuf.Plugin.CIPlugin.CIPluginClient.NewInstance(Grpc.Core.ClientBase.ClientBaseConfiguration)
+  name: NewInstance(ClientBase.ClientBaseConfiguration)
+  href: api/BBI.Common.Protobuf.Plugin.CIPlugin.CIPluginClient.html#BBI_Common_Protobuf_Plugin_CIPlugin_CIPluginClient_NewInstance_Grpc_Core_ClientBase_ClientBaseConfiguration_
+  commentId: M:BBI.Common.Protobuf.Plugin.CIPlugin.CIPluginClient.NewInstance(Grpc.Core.ClientBase.ClientBaseConfiguration)
+  fullName: BBI.Common.Protobuf.Plugin.CIPlugin.CIPluginClient.NewInstance(Grpc.Core.ClientBase.ClientBaseConfiguration)
+  nameWithType: CIPlugin.CIPluginClient.NewInstance(ClientBase.ClientBaseConfiguration)
+- uid: BBI.Common.Protobuf.Plugin.CIPlugin.CIPluginClient.NewInstance*
+  name: NewInstance
+  href: api/BBI.Common.Protobuf.Plugin.CIPlugin.CIPluginClient.html#BBI_Common_Protobuf_Plugin_CIPlugin_CIPluginClient_NewInstance_
+  commentId: Overload:BBI.Common.Protobuf.Plugin.CIPlugin.CIPluginClient.NewInstance
+  fullName: BBI.Common.Protobuf.Plugin.CIPlugin.CIPluginClient.NewInstance
+  nameWithType: CIPlugin.CIPluginClient.NewInstance
+- uid: BBI.Common.Protobuf.Plugin.CIPlugin.CIPluginClient.Shutdown(BBI.Common.Protobuf.Empty,Grpc.Core.CallOptions)
+  name: Shutdown(Empty, CallOptions)
+  href: api/BBI.Common.Protobuf.Plugin.CIPlugin.CIPluginClient.html#BBI_Common_Protobuf_Plugin_CIPlugin_CIPluginClient_Shutdown_BBI_Common_Protobuf_Empty_Grpc_Core_CallOptions_
+  commentId: M:BBI.Common.Protobuf.Plugin.CIPlugin.CIPluginClient.Shutdown(BBI.Common.Protobuf.Empty,Grpc.Core.CallOptions)
+  fullName: BBI.Common.Protobuf.Plugin.CIPlugin.CIPluginClient.Shutdown(BBI.Common.Protobuf.Empty, Grpc.Core.CallOptions)
+  nameWithType: CIPlugin.CIPluginClient.Shutdown(Empty, CallOptions)
+- uid: BBI.Common.Protobuf.Plugin.CIPlugin.CIPluginClient.Shutdown(BBI.Common.Protobuf.Empty,Grpc.Core.Metadata,System.Nullable{System.DateTime},System.Threading.CancellationToken)
+  name: Shutdown(Empty, Metadata, Nullable<DateTime>, CancellationToken)
+  href: api/BBI.Common.Protobuf.Plugin.CIPlugin.CIPluginClient.html#BBI_Common_Protobuf_Plugin_CIPlugin_CIPluginClient_Shutdown_BBI_Common_Protobuf_Empty_Grpc_Core_Metadata_System_Nullable_System_DateTime__System_Threading_CancellationToken_
+  commentId: M:BBI.Common.Protobuf.Plugin.CIPlugin.CIPluginClient.Shutdown(BBI.Common.Protobuf.Empty,Grpc.Core.Metadata,System.Nullable{System.DateTime},System.Threading.CancellationToken)
+  name.vb: Shutdown(Empty, Metadata, Nullable(Of DateTime), CancellationToken)
+  fullName: BBI.Common.Protobuf.Plugin.CIPlugin.CIPluginClient.Shutdown(BBI.Common.Protobuf.Empty, Grpc.Core.Metadata, System.Nullable<System.DateTime>, System.Threading.CancellationToken)
+  fullName.vb: BBI.Common.Protobuf.Plugin.CIPlugin.CIPluginClient.Shutdown(BBI.Common.Protobuf.Empty, Grpc.Core.Metadata, System.Nullable(Of System.DateTime), System.Threading.CancellationToken)
+  nameWithType: CIPlugin.CIPluginClient.Shutdown(Empty, Metadata, Nullable<DateTime>, CancellationToken)
+  nameWithType.vb: CIPlugin.CIPluginClient.Shutdown(Empty, Metadata, Nullable(Of DateTime), CancellationToken)
+- uid: BBI.Common.Protobuf.Plugin.CIPlugin.CIPluginClient.Shutdown*
+  name: Shutdown
+  href: api/BBI.Common.Protobuf.Plugin.CIPlugin.CIPluginClient.html#BBI_Common_Protobuf_Plugin_CIPlugin_CIPluginClient_Shutdown_
+  commentId: Overload:BBI.Common.Protobuf.Plugin.CIPlugin.CIPluginClient.Shutdown
+  fullName: BBI.Common.Protobuf.Plugin.CIPlugin.CIPluginClient.Shutdown
+  nameWithType: CIPlugin.CIPluginClient.Shutdown
+- uid: BBI.Common.Protobuf.Plugin.CIPlugin.CIPluginClient.ShutdownAsync(BBI.Common.Protobuf.Empty,Grpc.Core.CallOptions)
+  name: ShutdownAsync(Empty, CallOptions)
+  href: api/BBI.Common.Protobuf.Plugin.CIPlugin.CIPluginClient.html#BBI_Common_Protobuf_Plugin_CIPlugin_CIPluginClient_ShutdownAsync_BBI_Common_Protobuf_Empty_Grpc_Core_CallOptions_
+  commentId: M:BBI.Common.Protobuf.Plugin.CIPlugin.CIPluginClient.ShutdownAsync(BBI.Common.Protobuf.Empty,Grpc.Core.CallOptions)
+  fullName: BBI.Common.Protobuf.Plugin.CIPlugin.CIPluginClient.ShutdownAsync(BBI.Common.Protobuf.Empty, Grpc.Core.CallOptions)
+  nameWithType: CIPlugin.CIPluginClient.ShutdownAsync(Empty, CallOptions)
+- uid: BBI.Common.Protobuf.Plugin.CIPlugin.CIPluginClient.ShutdownAsync(BBI.Common.Protobuf.Empty,Grpc.Core.Metadata,System.Nullable{System.DateTime},System.Threading.CancellationToken)
+  name: ShutdownAsync(Empty, Metadata, Nullable<DateTime>, CancellationToken)
+  href: api/BBI.Common.Protobuf.Plugin.CIPlugin.CIPluginClient.html#BBI_Common_Protobuf_Plugin_CIPlugin_CIPluginClient_ShutdownAsync_BBI_Common_Protobuf_Empty_Grpc_Core_Metadata_System_Nullable_System_DateTime__System_Threading_CancellationToken_
+  commentId: M:BBI.Common.Protobuf.Plugin.CIPlugin.CIPluginClient.ShutdownAsync(BBI.Common.Protobuf.Empty,Grpc.Core.Metadata,System.Nullable{System.DateTime},System.Threading.CancellationToken)
+  name.vb: ShutdownAsync(Empty, Metadata, Nullable(Of DateTime), CancellationToken)
+  fullName: BBI.Common.Protobuf.Plugin.CIPlugin.CIPluginClient.ShutdownAsync(BBI.Common.Protobuf.Empty, Grpc.Core.Metadata, System.Nullable<System.DateTime>, System.Threading.CancellationToken)
+  fullName.vb: BBI.Common.Protobuf.Plugin.CIPlugin.CIPluginClient.ShutdownAsync(BBI.Common.Protobuf.Empty, Grpc.Core.Metadata, System.Nullable(Of System.DateTime), System.Threading.CancellationToken)
+  nameWithType: CIPlugin.CIPluginClient.ShutdownAsync(Empty, Metadata, Nullable<DateTime>, CancellationToken)
+  nameWithType.vb: CIPlugin.CIPluginClient.ShutdownAsync(Empty, Metadata, Nullable(Of DateTime), CancellationToken)
+- uid: BBI.Common.Protobuf.Plugin.CIPlugin.CIPluginClient.ShutdownAsync*
+  name: ShutdownAsync
+  href: api/BBI.Common.Protobuf.Plugin.CIPlugin.CIPluginClient.html#BBI_Common_Protobuf_Plugin_CIPlugin_CIPluginClient_ShutdownAsync_
+  commentId: Overload:BBI.Common.Protobuf.Plugin.CIPlugin.CIPluginClient.ShutdownAsync
+  fullName: BBI.Common.Protobuf.Plugin.CIPlugin.CIPluginClient.ShutdownAsync
+  nameWithType: CIPlugin.CIPluginClient.ShutdownAsync
+- uid: BBI.Common.Protobuf.Plugin.CIPlugin.Descriptor
+  name: Descriptor
+  href: api/BBI.Common.Protobuf.Plugin.CIPlugin.html#BBI_Common_Protobuf_Plugin_CIPlugin_Descriptor
+  commentId: P:BBI.Common.Protobuf.Plugin.CIPlugin.Descriptor
+  fullName: BBI.Common.Protobuf.Plugin.CIPlugin.Descriptor
+  nameWithType: CIPlugin.Descriptor
+- uid: BBI.Common.Protobuf.Plugin.CIPlugin.Descriptor*
+  name: Descriptor
+  href: api/BBI.Common.Protobuf.Plugin.CIPlugin.html#BBI_Common_Protobuf_Plugin_CIPlugin_Descriptor_
+  commentId: Overload:BBI.Common.Protobuf.Plugin.CIPlugin.Descriptor
+  fullName: BBI.Common.Protobuf.Plugin.CIPlugin.Descriptor
+  nameWithType: CIPlugin.Descriptor
+- uid: BBI.Common.Protobuf.Plugin.CIPluginReflection
+  name: CIPluginReflection
+  href: api/BBI.Common.Protobuf.Plugin.CIPluginReflection.html
+  commentId: T:BBI.Common.Protobuf.Plugin.CIPluginReflection
+  fullName: BBI.Common.Protobuf.Plugin.CIPluginReflection
+  nameWithType: CIPluginReflection
+- uid: BBI.Common.Protobuf.Plugin.CIPluginReflection.Descriptor
+  name: Descriptor
+  href: api/BBI.Common.Protobuf.Plugin.CIPluginReflection.html#BBI_Common_Protobuf_Plugin_CIPluginReflection_Descriptor
+  commentId: P:BBI.Common.Protobuf.Plugin.CIPluginReflection.Descriptor
+  fullName: BBI.Common.Protobuf.Plugin.CIPluginReflection.Descriptor
+  nameWithType: CIPluginReflection.Descriptor
+- uid: BBI.Common.Protobuf.Plugin.CIPluginReflection.Descriptor*
+  name: Descriptor
+  href: api/BBI.Common.Protobuf.Plugin.CIPluginReflection.html#BBI_Common_Protobuf_Plugin_CIPluginReflection_Descriptor_
+  commentId: Overload:BBI.Common.Protobuf.Plugin.CIPluginReflection.Descriptor
+  fullName: BBI.Common.Protobuf.Plugin.CIPluginReflection.Descriptor
+  nameWithType: CIPluginReflection.Descriptor
+- uid: BBI.Common.Protobuf.PluginHost
+  name: BBI.Common.Protobuf.PluginHost
+  href: api/BBI.Common.Protobuf.PluginHost.html
+  commentId: N:BBI.Common.Protobuf.PluginHost
+  fullName: BBI.Common.Protobuf.PluginHost
+  nameWithType: BBI.Common.Protobuf.PluginHost
+- uid: BBI.Common.Protobuf.PluginHost.CIPluginHost
+  name: CIPluginHost
+  href: api/BBI.Common.Protobuf.PluginHost.CIPluginHost.html
+  commentId: T:BBI.Common.Protobuf.PluginHost.CIPluginHost
+  fullName: BBI.Common.Protobuf.PluginHost.CIPluginHost
+  nameWithType: CIPluginHost
+- uid: BBI.Common.Protobuf.PluginHost.CIPluginHost.BindService(BBI.Common.Protobuf.PluginHost.CIPluginHost.CIPluginHostBase)
+  name: BindService(CIPluginHost.CIPluginHostBase)
+  href: api/BBI.Common.Protobuf.PluginHost.CIPluginHost.html#BBI_Common_Protobuf_PluginHost_CIPluginHost_BindService_BBI_Common_Protobuf_PluginHost_CIPluginHost_CIPluginHostBase_
+  commentId: M:BBI.Common.Protobuf.PluginHost.CIPluginHost.BindService(BBI.Common.Protobuf.PluginHost.CIPluginHost.CIPluginHostBase)
+  fullName: BBI.Common.Protobuf.PluginHost.CIPluginHost.BindService(BBI.Common.Protobuf.PluginHost.CIPluginHost.CIPluginHostBase)
+  nameWithType: CIPluginHost.BindService(CIPluginHost.CIPluginHostBase)
+- uid: BBI.Common.Protobuf.PluginHost.CIPluginHost.BindService*
+  name: BindService
+  href: api/BBI.Common.Protobuf.PluginHost.CIPluginHost.html#BBI_Common_Protobuf_PluginHost_CIPluginHost_BindService_
+  commentId: Overload:BBI.Common.Protobuf.PluginHost.CIPluginHost.BindService
+  fullName: BBI.Common.Protobuf.PluginHost.CIPluginHost.BindService
+  nameWithType: CIPluginHost.BindService
+- uid: BBI.Common.Protobuf.PluginHost.CIPluginHost.CIPluginHostBase
+  name: CIPluginHost.CIPluginHostBase
+  href: api/BBI.Common.Protobuf.PluginHost.CIPluginHost.CIPluginHostBase.html
+  commentId: T:BBI.Common.Protobuf.PluginHost.CIPluginHost.CIPluginHostBase
+  fullName: BBI.Common.Protobuf.PluginHost.CIPluginHost.CIPluginHostBase
+  nameWithType: CIPluginHost.CIPluginHostBase
+- uid: BBI.Common.Protobuf.PluginHost.CIPluginHost.CIPluginHostBase.Register(BBI.Common.Protobuf.PluginRegistration,Grpc.Core.ServerCallContext)
+  name: Register(PluginRegistration, ServerCallContext)
+  href: api/BBI.Common.Protobuf.PluginHost.CIPluginHost.CIPluginHostBase.html#BBI_Common_Protobuf_PluginHost_CIPluginHost_CIPluginHostBase_Register_BBI_Common_Protobuf_PluginRegistration_Grpc_Core_ServerCallContext_
+  commentId: M:BBI.Common.Protobuf.PluginHost.CIPluginHost.CIPluginHostBase.Register(BBI.Common.Protobuf.PluginRegistration,Grpc.Core.ServerCallContext)
+  fullName: BBI.Common.Protobuf.PluginHost.CIPluginHost.CIPluginHostBase.Register(BBI.Common.Protobuf.PluginRegistration, Grpc.Core.ServerCallContext)
+  nameWithType: CIPluginHost.CIPluginHostBase.Register(PluginRegistration, ServerCallContext)
+- uid: BBI.Common.Protobuf.PluginHost.CIPluginHost.CIPluginHostBase.Register*
+  name: Register
+  href: api/BBI.Common.Protobuf.PluginHost.CIPluginHost.CIPluginHostBase.html#BBI_Common_Protobuf_PluginHost_CIPluginHost_CIPluginHostBase_Register_
+  commentId: Overload:BBI.Common.Protobuf.PluginHost.CIPluginHost.CIPluginHostBase.Register
+  fullName: BBI.Common.Protobuf.PluginHost.CIPluginHost.CIPluginHostBase.Register
+  nameWithType: CIPluginHost.CIPluginHostBase.Register
+- uid: BBI.Common.Protobuf.PluginHost.CIPluginHost.CIPluginHostClient
+  name: CIPluginHost.CIPluginHostClient
+  href: api/BBI.Common.Protobuf.PluginHost.CIPluginHost.CIPluginHostClient.html
+  commentId: T:BBI.Common.Protobuf.PluginHost.CIPluginHost.CIPluginHostClient
+  fullName: BBI.Common.Protobuf.PluginHost.CIPluginHost.CIPluginHostClient
+  nameWithType: CIPluginHost.CIPluginHostClient
+- uid: BBI.Common.Protobuf.PluginHost.CIPluginHost.CIPluginHostClient.#ctor
+  name: CIPluginHostClient()
+  href: api/BBI.Common.Protobuf.PluginHost.CIPluginHost.CIPluginHostClient.html#BBI_Common_Protobuf_PluginHost_CIPluginHost_CIPluginHostClient__ctor
+  commentId: M:BBI.Common.Protobuf.PluginHost.CIPluginHost.CIPluginHostClient.#ctor
+  fullName: BBI.Common.Protobuf.PluginHost.CIPluginHost.CIPluginHostClient.CIPluginHostClient()
+  nameWithType: CIPluginHost.CIPluginHostClient.CIPluginHostClient()
+- uid: BBI.Common.Protobuf.PluginHost.CIPluginHost.CIPluginHostClient.#ctor(Grpc.Core.CallInvoker)
+  name: CIPluginHostClient(CallInvoker)
+  href: api/BBI.Common.Protobuf.PluginHost.CIPluginHost.CIPluginHostClient.html#BBI_Common_Protobuf_PluginHost_CIPluginHost_CIPluginHostClient__ctor_Grpc_Core_CallInvoker_
+  commentId: M:BBI.Common.Protobuf.PluginHost.CIPluginHost.CIPluginHostClient.#ctor(Grpc.Core.CallInvoker)
+  fullName: BBI.Common.Protobuf.PluginHost.CIPluginHost.CIPluginHostClient.CIPluginHostClient(Grpc.Core.CallInvoker)
+  nameWithType: CIPluginHost.CIPluginHostClient.CIPluginHostClient(CallInvoker)
+- uid: BBI.Common.Protobuf.PluginHost.CIPluginHost.CIPluginHostClient.#ctor(Grpc.Core.Channel)
+  name: CIPluginHostClient(Channel)
+  href: api/BBI.Common.Protobuf.PluginHost.CIPluginHost.CIPluginHostClient.html#BBI_Common_Protobuf_PluginHost_CIPluginHost_CIPluginHostClient__ctor_Grpc_Core_Channel_
+  commentId: M:BBI.Common.Protobuf.PluginHost.CIPluginHost.CIPluginHostClient.#ctor(Grpc.Core.Channel)
+  fullName: BBI.Common.Protobuf.PluginHost.CIPluginHost.CIPluginHostClient.CIPluginHostClient(Grpc.Core.Channel)
+  nameWithType: CIPluginHost.CIPluginHostClient.CIPluginHostClient(Channel)
+- uid: BBI.Common.Protobuf.PluginHost.CIPluginHost.CIPluginHostClient.#ctor(Grpc.Core.ClientBase.ClientBaseConfiguration)
+  name: CIPluginHostClient(ClientBase.ClientBaseConfiguration)
+  href: api/BBI.Common.Protobuf.PluginHost.CIPluginHost.CIPluginHostClient.html#BBI_Common_Protobuf_PluginHost_CIPluginHost_CIPluginHostClient__ctor_Grpc_Core_ClientBase_ClientBaseConfiguration_
+  commentId: M:BBI.Common.Protobuf.PluginHost.CIPluginHost.CIPluginHostClient.#ctor(Grpc.Core.ClientBase.ClientBaseConfiguration)
+  fullName: BBI.Common.Protobuf.PluginHost.CIPluginHost.CIPluginHostClient.CIPluginHostClient(Grpc.Core.ClientBase.ClientBaseConfiguration)
+  nameWithType: CIPluginHost.CIPluginHostClient.CIPluginHostClient(ClientBase.ClientBaseConfiguration)
+- uid: BBI.Common.Protobuf.PluginHost.CIPluginHost.CIPluginHostClient.#ctor*
+  name: CIPluginHostClient
+  href: api/BBI.Common.Protobuf.PluginHost.CIPluginHost.CIPluginHostClient.html#BBI_Common_Protobuf_PluginHost_CIPluginHost_CIPluginHostClient__ctor_
+  commentId: Overload:BBI.Common.Protobuf.PluginHost.CIPluginHost.CIPluginHostClient.#ctor
+  fullName: BBI.Common.Protobuf.PluginHost.CIPluginHost.CIPluginHostClient.CIPluginHostClient
+  nameWithType: CIPluginHost.CIPluginHostClient.CIPluginHostClient
+- uid: BBI.Common.Protobuf.PluginHost.CIPluginHost.CIPluginHostClient.NewInstance(Grpc.Core.ClientBase.ClientBaseConfiguration)
+  name: NewInstance(ClientBase.ClientBaseConfiguration)
+  href: api/BBI.Common.Protobuf.PluginHost.CIPluginHost.CIPluginHostClient.html#BBI_Common_Protobuf_PluginHost_CIPluginHost_CIPluginHostClient_NewInstance_Grpc_Core_ClientBase_ClientBaseConfiguration_
+  commentId: M:BBI.Common.Protobuf.PluginHost.CIPluginHost.CIPluginHostClient.NewInstance(Grpc.Core.ClientBase.ClientBaseConfiguration)
+  fullName: BBI.Common.Protobuf.PluginHost.CIPluginHost.CIPluginHostClient.NewInstance(Grpc.Core.ClientBase.ClientBaseConfiguration)
+  nameWithType: CIPluginHost.CIPluginHostClient.NewInstance(ClientBase.ClientBaseConfiguration)
+- uid: BBI.Common.Protobuf.PluginHost.CIPluginHost.CIPluginHostClient.NewInstance*
+  name: NewInstance
+  href: api/BBI.Common.Protobuf.PluginHost.CIPluginHost.CIPluginHostClient.html#BBI_Common_Protobuf_PluginHost_CIPluginHost_CIPluginHostClient_NewInstance_
+  commentId: Overload:BBI.Common.Protobuf.PluginHost.CIPluginHost.CIPluginHostClient.NewInstance
+  fullName: BBI.Common.Protobuf.PluginHost.CIPluginHost.CIPluginHostClient.NewInstance
+  nameWithType: CIPluginHost.CIPluginHostClient.NewInstance
+- uid: BBI.Common.Protobuf.PluginHost.CIPluginHost.CIPluginHostClient.Register(BBI.Common.Protobuf.PluginRegistration,Grpc.Core.CallOptions)
+  name: Register(PluginRegistration, CallOptions)
+  href: api/BBI.Common.Protobuf.PluginHost.CIPluginHost.CIPluginHostClient.html#BBI_Common_Protobuf_PluginHost_CIPluginHost_CIPluginHostClient_Register_BBI_Common_Protobuf_PluginRegistration_Grpc_Core_CallOptions_
+  commentId: M:BBI.Common.Protobuf.PluginHost.CIPluginHost.CIPluginHostClient.Register(BBI.Common.Protobuf.PluginRegistration,Grpc.Core.CallOptions)
+  fullName: BBI.Common.Protobuf.PluginHost.CIPluginHost.CIPluginHostClient.Register(BBI.Common.Protobuf.PluginRegistration, Grpc.Core.CallOptions)
+  nameWithType: CIPluginHost.CIPluginHostClient.Register(PluginRegistration, CallOptions)
+- uid: BBI.Common.Protobuf.PluginHost.CIPluginHost.CIPluginHostClient.Register(BBI.Common.Protobuf.PluginRegistration,Grpc.Core.Metadata,System.Nullable{System.DateTime},System.Threading.CancellationToken)
+  name: Register(PluginRegistration, Metadata, Nullable<DateTime>, CancellationToken)
+  href: api/BBI.Common.Protobuf.PluginHost.CIPluginHost.CIPluginHostClient.html#BBI_Common_Protobuf_PluginHost_CIPluginHost_CIPluginHostClient_Register_BBI_Common_Protobuf_PluginRegistration_Grpc_Core_Metadata_System_Nullable_System_DateTime__System_Threading_CancellationToken_
+  commentId: M:BBI.Common.Protobuf.PluginHost.CIPluginHost.CIPluginHostClient.Register(BBI.Common.Protobuf.PluginRegistration,Grpc.Core.Metadata,System.Nullable{System.DateTime},System.Threading.CancellationToken)
+  name.vb: Register(PluginRegistration, Metadata, Nullable(Of DateTime), CancellationToken)
+  fullName: BBI.Common.Protobuf.PluginHost.CIPluginHost.CIPluginHostClient.Register(BBI.Common.Protobuf.PluginRegistration, Grpc.Core.Metadata, System.Nullable<System.DateTime>, System.Threading.CancellationToken)
+  fullName.vb: BBI.Common.Protobuf.PluginHost.CIPluginHost.CIPluginHostClient.Register(BBI.Common.Protobuf.PluginRegistration, Grpc.Core.Metadata, System.Nullable(Of System.DateTime), System.Threading.CancellationToken)
+  nameWithType: CIPluginHost.CIPluginHostClient.Register(PluginRegistration, Metadata, Nullable<DateTime>, CancellationToken)
+  nameWithType.vb: CIPluginHost.CIPluginHostClient.Register(PluginRegistration, Metadata, Nullable(Of DateTime), CancellationToken)
+- uid: BBI.Common.Protobuf.PluginHost.CIPluginHost.CIPluginHostClient.Register*
+  name: Register
+  href: api/BBI.Common.Protobuf.PluginHost.CIPluginHost.CIPluginHostClient.html#BBI_Common_Protobuf_PluginHost_CIPluginHost_CIPluginHostClient_Register_
+  commentId: Overload:BBI.Common.Protobuf.PluginHost.CIPluginHost.CIPluginHostClient.Register
+  fullName: BBI.Common.Protobuf.PluginHost.CIPluginHost.CIPluginHostClient.Register
+  nameWithType: CIPluginHost.CIPluginHostClient.Register
+- uid: BBI.Common.Protobuf.PluginHost.CIPluginHost.CIPluginHostClient.RegisterAsync(BBI.Common.Protobuf.PluginRegistration,Grpc.Core.CallOptions)
+  name: RegisterAsync(PluginRegistration, CallOptions)
+  href: api/BBI.Common.Protobuf.PluginHost.CIPluginHost.CIPluginHostClient.html#BBI_Common_Protobuf_PluginHost_CIPluginHost_CIPluginHostClient_RegisterAsync_BBI_Common_Protobuf_PluginRegistration_Grpc_Core_CallOptions_
+  commentId: M:BBI.Common.Protobuf.PluginHost.CIPluginHost.CIPluginHostClient.RegisterAsync(BBI.Common.Protobuf.PluginRegistration,Grpc.Core.CallOptions)
+  fullName: BBI.Common.Protobuf.PluginHost.CIPluginHost.CIPluginHostClient.RegisterAsync(BBI.Common.Protobuf.PluginRegistration, Grpc.Core.CallOptions)
+  nameWithType: CIPluginHost.CIPluginHostClient.RegisterAsync(PluginRegistration, CallOptions)
+- uid: BBI.Common.Protobuf.PluginHost.CIPluginHost.CIPluginHostClient.RegisterAsync(BBI.Common.Protobuf.PluginRegistration,Grpc.Core.Metadata,System.Nullable{System.DateTime},System.Threading.CancellationToken)
+  name: RegisterAsync(PluginRegistration, Metadata, Nullable<DateTime>, CancellationToken)
+  href: api/BBI.Common.Protobuf.PluginHost.CIPluginHost.CIPluginHostClient.html#BBI_Common_Protobuf_PluginHost_CIPluginHost_CIPluginHostClient_RegisterAsync_BBI_Common_Protobuf_PluginRegistration_Grpc_Core_Metadata_System_Nullable_System_DateTime__System_Threading_CancellationToken_
+  commentId: M:BBI.Common.Protobuf.PluginHost.CIPluginHost.CIPluginHostClient.RegisterAsync(BBI.Common.Protobuf.PluginRegistration,Grpc.Core.Metadata,System.Nullable{System.DateTime},System.Threading.CancellationToken)
+  name.vb: RegisterAsync(PluginRegistration, Metadata, Nullable(Of DateTime), CancellationToken)
+  fullName: BBI.Common.Protobuf.PluginHost.CIPluginHost.CIPluginHostClient.RegisterAsync(BBI.Common.Protobuf.PluginRegistration, Grpc.Core.Metadata, System.Nullable<System.DateTime>, System.Threading.CancellationToken)
+  fullName.vb: BBI.Common.Protobuf.PluginHost.CIPluginHost.CIPluginHostClient.RegisterAsync(BBI.Common.Protobuf.PluginRegistration, Grpc.Core.Metadata, System.Nullable(Of System.DateTime), System.Threading.CancellationToken)
+  nameWithType: CIPluginHost.CIPluginHostClient.RegisterAsync(PluginRegistration, Metadata, Nullable<DateTime>, CancellationToken)
+  nameWithType.vb: CIPluginHost.CIPluginHostClient.RegisterAsync(PluginRegistration, Metadata, Nullable(Of DateTime), CancellationToken)
+- uid: BBI.Common.Protobuf.PluginHost.CIPluginHost.CIPluginHostClient.RegisterAsync*
+  name: RegisterAsync
+  href: api/BBI.Common.Protobuf.PluginHost.CIPluginHost.CIPluginHostClient.html#BBI_Common_Protobuf_PluginHost_CIPluginHost_CIPluginHostClient_RegisterAsync_
+  commentId: Overload:BBI.Common.Protobuf.PluginHost.CIPluginHost.CIPluginHostClient.RegisterAsync
+  fullName: BBI.Common.Protobuf.PluginHost.CIPluginHost.CIPluginHostClient.RegisterAsync
+  nameWithType: CIPluginHost.CIPluginHostClient.RegisterAsync
+- uid: BBI.Common.Protobuf.PluginHost.CIPluginHost.Descriptor
+  name: Descriptor
+  href: api/BBI.Common.Protobuf.PluginHost.CIPluginHost.html#BBI_Common_Protobuf_PluginHost_CIPluginHost_Descriptor
+  commentId: P:BBI.Common.Protobuf.PluginHost.CIPluginHost.Descriptor
+  fullName: BBI.Common.Protobuf.PluginHost.CIPluginHost.Descriptor
+  nameWithType: CIPluginHost.Descriptor
+- uid: BBI.Common.Protobuf.PluginHost.CIPluginHost.Descriptor*
+  name: Descriptor
+  href: api/BBI.Common.Protobuf.PluginHost.CIPluginHost.html#BBI_Common_Protobuf_PluginHost_CIPluginHost_Descriptor_
+  commentId: Overload:BBI.Common.Protobuf.PluginHost.CIPluginHost.Descriptor
+  fullName: BBI.Common.Protobuf.PluginHost.CIPluginHost.Descriptor
+  nameWithType: CIPluginHost.Descriptor
+- uid: BBI.Common.Protobuf.PluginHost.CIPluginHostReflection
+  name: CIPluginHostReflection
+  href: api/BBI.Common.Protobuf.PluginHost.CIPluginHostReflection.html
+  commentId: T:BBI.Common.Protobuf.PluginHost.CIPluginHostReflection
+  fullName: BBI.Common.Protobuf.PluginHost.CIPluginHostReflection
+  nameWithType: CIPluginHostReflection
+- uid: BBI.Common.Protobuf.PluginHost.CIPluginHostReflection.Descriptor
+  name: Descriptor
+  href: api/BBI.Common.Protobuf.PluginHost.CIPluginHostReflection.html#BBI_Common_Protobuf_PluginHost_CIPluginHostReflection_Descriptor
+  commentId: P:BBI.Common.Protobuf.PluginHost.CIPluginHostReflection.Descriptor
+  fullName: BBI.Common.Protobuf.PluginHost.CIPluginHostReflection.Descriptor
+  nameWithType: CIPluginHostReflection.Descriptor
+- uid: BBI.Common.Protobuf.PluginHost.CIPluginHostReflection.Descriptor*
+  name: Descriptor
+  href: api/BBI.Common.Protobuf.PluginHost.CIPluginHostReflection.html#BBI_Common_Protobuf_PluginHost_CIPluginHostReflection_Descriptor_
+  commentId: Overload:BBI.Common.Protobuf.PluginHost.CIPluginHostReflection.Descriptor
+  fullName: BBI.Common.Protobuf.PluginHost.CIPluginHostReflection.Descriptor
+  nameWithType: CIPluginHostReflection.Descriptor
 - uid: BBI.Common.Protobuf.PluginMessagesReflection
   name: PluginMessagesReflection
   href: api/BBI.Common.Protobuf.PluginMessagesReflection.html
@@ -589,6 +1279,24 @@ references:
   commentId: Overload:BBI.Common.Protobuf.PluginRegistration.GetHashCode
   fullName: BBI.Common.Protobuf.PluginRegistration.GetHashCode
   nameWithType: PluginRegistration.GetHashCode
+- uid: BBI.Common.Protobuf.PluginRegistration.Google#Protobuf#IMessage#Descriptor
+  name: IMessage.Descriptor
+  href: api/BBI.Common.Protobuf.PluginRegistration.html#BBI_Common_Protobuf_PluginRegistration_Google_Protobuf_IMessage_Descriptor
+  commentId: P:BBI.Common.Protobuf.PluginRegistration.Google#Protobuf#IMessage#Descriptor
+  name.vb: pb::Google.Protobuf.IMessage.Descriptor
+  fullName: BBI.Common.Protobuf.PluginRegistration.Google.Protobuf.IMessage.Descriptor
+  fullName.vb: BBI.Common.Protobuf.PluginRegistration.pb::Google.Protobuf.IMessage.Descriptor
+  nameWithType: PluginRegistration.IMessage.Descriptor
+  nameWithType.vb: PluginRegistration.pb::Google.Protobuf.IMessage.Descriptor
+- uid: BBI.Common.Protobuf.PluginRegistration.Google#Protobuf#IMessage#Descriptor*
+  name: IMessage.Descriptor
+  href: api/BBI.Common.Protobuf.PluginRegistration.html#BBI_Common_Protobuf_PluginRegistration_Google_Protobuf_IMessage_Descriptor_
+  commentId: Overload:BBI.Common.Protobuf.PluginRegistration.Google#Protobuf#IMessage#Descriptor
+  name.vb: pb::Google.Protobuf.IMessage.Descriptor
+  fullName: BBI.Common.Protobuf.PluginRegistration.Google.Protobuf.IMessage.Descriptor
+  fullName.vb: BBI.Common.Protobuf.PluginRegistration.pb::Google.Protobuf.IMessage.Descriptor
+  nameWithType: PluginRegistration.IMessage.Descriptor
+  nameWithType.vb: PluginRegistration.pb::Google.Protobuf.IMessage.Descriptor
 - uid: BBI.Common.Protobuf.PluginRegistration.MergeFrom(BBI.Common.Protobuf.PluginRegistration)
   name: MergeFrom(PluginRegistration)
   href: api/BBI.Common.Protobuf.PluginRegistration.html#BBI_Common_Protobuf_PluginRegistration_MergeFrom_BBI_Common_Protobuf_PluginRegistration_
@@ -596,11 +1304,11 @@ references:
   fullName: BBI.Common.Protobuf.PluginRegistration.MergeFrom(BBI.Common.Protobuf.PluginRegistration)
   nameWithType: PluginRegistration.MergeFrom(PluginRegistration)
 - uid: BBI.Common.Protobuf.PluginRegistration.MergeFrom(Google.Protobuf.CodedInputStream)
-  name: MergeFrom(Google.Protobuf.CodedInputStream)
+  name: MergeFrom(CodedInputStream)
   href: api/BBI.Common.Protobuf.PluginRegistration.html#BBI_Common_Protobuf_PluginRegistration_MergeFrom_Google_Protobuf_CodedInputStream_
   commentId: M:BBI.Common.Protobuf.PluginRegistration.MergeFrom(Google.Protobuf.CodedInputStream)
   fullName: BBI.Common.Protobuf.PluginRegistration.MergeFrom(Google.Protobuf.CodedInputStream)
-  nameWithType: PluginRegistration.MergeFrom(Google.Protobuf.CodedInputStream)
+  nameWithType: PluginRegistration.MergeFrom(CodedInputStream)
 - uid: BBI.Common.Protobuf.PluginRegistration.MergeFrom*
   name: MergeFrom
   href: api/BBI.Common.Protobuf.PluginRegistration.html#BBI_Common_Protobuf_PluginRegistration_MergeFrom_
@@ -637,6 +1345,24 @@ references:
   commentId: F:BBI.Common.Protobuf.PluginRegistration.PluginNameFieldNumber
   fullName: BBI.Common.Protobuf.PluginRegistration.PluginNameFieldNumber
   nameWithType: PluginRegistration.PluginNameFieldNumber
+- uid: BBI.Common.Protobuf.PluginRegistration.PluginPort
+  name: PluginPort
+  href: api/BBI.Common.Protobuf.PluginRegistration.html#BBI_Common_Protobuf_PluginRegistration_PluginPort
+  commentId: P:BBI.Common.Protobuf.PluginRegistration.PluginPort
+  fullName: BBI.Common.Protobuf.PluginRegistration.PluginPort
+  nameWithType: PluginRegistration.PluginPort
+- uid: BBI.Common.Protobuf.PluginRegistration.PluginPort*
+  name: PluginPort
+  href: api/BBI.Common.Protobuf.PluginRegistration.html#BBI_Common_Protobuf_PluginRegistration_PluginPort_
+  commentId: Overload:BBI.Common.Protobuf.PluginRegistration.PluginPort
+  fullName: BBI.Common.Protobuf.PluginRegistration.PluginPort
+  nameWithType: PluginRegistration.PluginPort
+- uid: BBI.Common.Protobuf.PluginRegistration.PluginPortFieldNumber
+  name: PluginPortFieldNumber
+  href: api/BBI.Common.Protobuf.PluginRegistration.html#BBI_Common_Protobuf_PluginRegistration_PluginPortFieldNumber
+  commentId: F:BBI.Common.Protobuf.PluginRegistration.PluginPortFieldNumber
+  fullName: BBI.Common.Protobuf.PluginRegistration.PluginPortFieldNumber
+  nameWithType: PluginRegistration.PluginPortFieldNumber
 - uid: BBI.Common.Protobuf.PluginRegistration.ToString
   name: ToString()
   href: api/BBI.Common.Protobuf.PluginRegistration.html#BBI_Common_Protobuf_PluginRegistration_ToString
@@ -650,11 +1376,11 @@ references:
   fullName: BBI.Common.Protobuf.PluginRegistration.ToString
   nameWithType: PluginRegistration.ToString
 - uid: BBI.Common.Protobuf.PluginRegistration.WriteTo(Google.Protobuf.CodedOutputStream)
-  name: WriteTo(Google.Protobuf.CodedOutputStream)
+  name: WriteTo(CodedOutputStream)
   href: api/BBI.Common.Protobuf.PluginRegistration.html#BBI_Common_Protobuf_PluginRegistration_WriteTo_Google_Protobuf_CodedOutputStream_
   commentId: M:BBI.Common.Protobuf.PluginRegistration.WriteTo(Google.Protobuf.CodedOutputStream)
   fullName: BBI.Common.Protobuf.PluginRegistration.WriteTo(Google.Protobuf.CodedOutputStream)
-  nameWithType: PluginRegistration.WriteTo(Google.Protobuf.CodedOutputStream)
+  nameWithType: PluginRegistration.WriteTo(CodedOutputStream)
 - uid: BBI.Common.Protobuf.PluginRegistration.WriteTo*
   name: WriteTo
   href: api/BBI.Common.Protobuf.PluginRegistration.html#BBI_Common_Protobuf_PluginRegistration_WriteTo_
@@ -751,6 +1477,24 @@ references:
   commentId: Overload:BBI.Common.Protobuf.PluginRegistrationReply.GetHashCode
   fullName: BBI.Common.Protobuf.PluginRegistrationReply.GetHashCode
   nameWithType: PluginRegistrationReply.GetHashCode
+- uid: BBI.Common.Protobuf.PluginRegistrationReply.Google#Protobuf#IMessage#Descriptor
+  name: IMessage.Descriptor
+  href: api/BBI.Common.Protobuf.PluginRegistrationReply.html#BBI_Common_Protobuf_PluginRegistrationReply_Google_Protobuf_IMessage_Descriptor
+  commentId: P:BBI.Common.Protobuf.PluginRegistrationReply.Google#Protobuf#IMessage#Descriptor
+  name.vb: pb::Google.Protobuf.IMessage.Descriptor
+  fullName: BBI.Common.Protobuf.PluginRegistrationReply.Google.Protobuf.IMessage.Descriptor
+  fullName.vb: BBI.Common.Protobuf.PluginRegistrationReply.pb::Google.Protobuf.IMessage.Descriptor
+  nameWithType: PluginRegistrationReply.IMessage.Descriptor
+  nameWithType.vb: PluginRegistrationReply.pb::Google.Protobuf.IMessage.Descriptor
+- uid: BBI.Common.Protobuf.PluginRegistrationReply.Google#Protobuf#IMessage#Descriptor*
+  name: IMessage.Descriptor
+  href: api/BBI.Common.Protobuf.PluginRegistrationReply.html#BBI_Common_Protobuf_PluginRegistrationReply_Google_Protobuf_IMessage_Descriptor_
+  commentId: Overload:BBI.Common.Protobuf.PluginRegistrationReply.Google#Protobuf#IMessage#Descriptor
+  name.vb: pb::Google.Protobuf.IMessage.Descriptor
+  fullName: BBI.Common.Protobuf.PluginRegistrationReply.Google.Protobuf.IMessage.Descriptor
+  fullName.vb: BBI.Common.Protobuf.PluginRegistrationReply.pb::Google.Protobuf.IMessage.Descriptor
+  nameWithType: PluginRegistrationReply.IMessage.Descriptor
+  nameWithType.vb: PluginRegistrationReply.pb::Google.Protobuf.IMessage.Descriptor
 - uid: BBI.Common.Protobuf.PluginRegistrationReply.MergeFrom(BBI.Common.Protobuf.PluginRegistrationReply)
   name: MergeFrom(PluginRegistrationReply)
   href: api/BBI.Common.Protobuf.PluginRegistrationReply.html#BBI_Common_Protobuf_PluginRegistrationReply_MergeFrom_BBI_Common_Protobuf_PluginRegistrationReply_
@@ -758,11 +1502,11 @@ references:
   fullName: BBI.Common.Protobuf.PluginRegistrationReply.MergeFrom(BBI.Common.Protobuf.PluginRegistrationReply)
   nameWithType: PluginRegistrationReply.MergeFrom(PluginRegistrationReply)
 - uid: BBI.Common.Protobuf.PluginRegistrationReply.MergeFrom(Google.Protobuf.CodedInputStream)
-  name: MergeFrom(Google.Protobuf.CodedInputStream)
+  name: MergeFrom(CodedInputStream)
   href: api/BBI.Common.Protobuf.PluginRegistrationReply.html#BBI_Common_Protobuf_PluginRegistrationReply_MergeFrom_Google_Protobuf_CodedInputStream_
   commentId: M:BBI.Common.Protobuf.PluginRegistrationReply.MergeFrom(Google.Protobuf.CodedInputStream)
   fullName: BBI.Common.Protobuf.PluginRegistrationReply.MergeFrom(Google.Protobuf.CodedInputStream)
-  nameWithType: PluginRegistrationReply.MergeFrom(Google.Protobuf.CodedInputStream)
+  nameWithType: PluginRegistrationReply.MergeFrom(CodedInputStream)
 - uid: BBI.Common.Protobuf.PluginRegistrationReply.MergeFrom*
   name: MergeFrom
   href: api/BBI.Common.Protobuf.PluginRegistrationReply.html#BBI_Common_Protobuf_PluginRegistrationReply_MergeFrom_
@@ -781,6 +1525,24 @@ references:
   commentId: Overload:BBI.Common.Protobuf.PluginRegistrationReply.Parser
   fullName: BBI.Common.Protobuf.PluginRegistrationReply.Parser
   nameWithType: PluginRegistrationReply.Parser
+- uid: BBI.Common.Protobuf.PluginRegistrationReply.RegistrationCode
+  name: RegistrationCode
+  href: api/BBI.Common.Protobuf.PluginRegistrationReply.html#BBI_Common_Protobuf_PluginRegistrationReply_RegistrationCode
+  commentId: P:BBI.Common.Protobuf.PluginRegistrationReply.RegistrationCode
+  fullName: BBI.Common.Protobuf.PluginRegistrationReply.RegistrationCode
+  nameWithType: PluginRegistrationReply.RegistrationCode
+- uid: BBI.Common.Protobuf.PluginRegistrationReply.RegistrationCode*
+  name: RegistrationCode
+  href: api/BBI.Common.Protobuf.PluginRegistrationReply.html#BBI_Common_Protobuf_PluginRegistrationReply_RegistrationCode_
+  commentId: Overload:BBI.Common.Protobuf.PluginRegistrationReply.RegistrationCode
+  fullName: BBI.Common.Protobuf.PluginRegistrationReply.RegistrationCode
+  nameWithType: PluginRegistrationReply.RegistrationCode
+- uid: BBI.Common.Protobuf.PluginRegistrationReply.RegistrationCodeFieldNumber
+  name: RegistrationCodeFieldNumber
+  href: api/BBI.Common.Protobuf.PluginRegistrationReply.html#BBI_Common_Protobuf_PluginRegistrationReply_RegistrationCodeFieldNumber
+  commentId: F:BBI.Common.Protobuf.PluginRegistrationReply.RegistrationCodeFieldNumber
+  fullName: BBI.Common.Protobuf.PluginRegistrationReply.RegistrationCodeFieldNumber
+  nameWithType: PluginRegistrationReply.RegistrationCodeFieldNumber
 - uid: BBI.Common.Protobuf.PluginRegistrationReply.ToString
   name: ToString()
   href: api/BBI.Common.Protobuf.PluginRegistrationReply.html#BBI_Common_Protobuf_PluginRegistrationReply_ToString
@@ -793,12 +1555,48 @@ references:
   commentId: Overload:BBI.Common.Protobuf.PluginRegistrationReply.ToString
   fullName: BBI.Common.Protobuf.PluginRegistrationReply.ToString
   nameWithType: PluginRegistrationReply.ToString
+- uid: BBI.Common.Protobuf.PluginRegistrationReply.Types
+  name: PluginRegistrationReply.Types
+  href: api/BBI.Common.Protobuf.PluginRegistrationReply.Types.html
+  commentId: T:BBI.Common.Protobuf.PluginRegistrationReply.Types
+  fullName: BBI.Common.Protobuf.PluginRegistrationReply.Types
+  nameWithType: PluginRegistrationReply.Types
+- uid: BBI.Common.Protobuf.PluginRegistrationReply.Types.PluginRegistrationCode
+  name: PluginRegistrationReply.Types.PluginRegistrationCode
+  href: api/BBI.Common.Protobuf.PluginRegistrationReply.Types.PluginRegistrationCode.html
+  commentId: T:BBI.Common.Protobuf.PluginRegistrationReply.Types.PluginRegistrationCode
+  fullName: BBI.Common.Protobuf.PluginRegistrationReply.Types.PluginRegistrationCode
+  nameWithType: PluginRegistrationReply.Types.PluginRegistrationCode
+- uid: BBI.Common.Protobuf.PluginRegistrationReply.Types.PluginRegistrationCode.ConflictingName
+  name: ConflictingName
+  href: api/BBI.Common.Protobuf.PluginRegistrationReply.Types.PluginRegistrationCode.html#BBI_Common_Protobuf_PluginRegistrationReply_Types_PluginRegistrationCode_ConflictingName
+  commentId: F:BBI.Common.Protobuf.PluginRegistrationReply.Types.PluginRegistrationCode.ConflictingName
+  fullName: BBI.Common.Protobuf.PluginRegistrationReply.Types.PluginRegistrationCode.ConflictingName
+  nameWithType: PluginRegistrationReply.Types.PluginRegistrationCode.ConflictingName
+- uid: BBI.Common.Protobuf.PluginRegistrationReply.Types.PluginRegistrationCode.ConflictingPort
+  name: ConflictingPort
+  href: api/BBI.Common.Protobuf.PluginRegistrationReply.Types.PluginRegistrationCode.html#BBI_Common_Protobuf_PluginRegistrationReply_Types_PluginRegistrationCode_ConflictingPort
+  commentId: F:BBI.Common.Protobuf.PluginRegistrationReply.Types.PluginRegistrationCode.ConflictingPort
+  fullName: BBI.Common.Protobuf.PluginRegistrationReply.Types.PluginRegistrationCode.ConflictingPort
+  nameWithType: PluginRegistrationReply.Types.PluginRegistrationCode.ConflictingPort
+- uid: BBI.Common.Protobuf.PluginRegistrationReply.Types.PluginRegistrationCode.Success
+  name: Success
+  href: api/BBI.Common.Protobuf.PluginRegistrationReply.Types.PluginRegistrationCode.html#BBI_Common_Protobuf_PluginRegistrationReply_Types_PluginRegistrationCode_Success
+  commentId: F:BBI.Common.Protobuf.PluginRegistrationReply.Types.PluginRegistrationCode.Success
+  fullName: BBI.Common.Protobuf.PluginRegistrationReply.Types.PluginRegistrationCode.Success
+  nameWithType: PluginRegistrationReply.Types.PluginRegistrationCode.Success
+- uid: BBI.Common.Protobuf.PluginRegistrationReply.Types.PluginRegistrationCode.UnknownError
+  name: UnknownError
+  href: api/BBI.Common.Protobuf.PluginRegistrationReply.Types.PluginRegistrationCode.html#BBI_Common_Protobuf_PluginRegistrationReply_Types_PluginRegistrationCode_UnknownError
+  commentId: F:BBI.Common.Protobuf.PluginRegistrationReply.Types.PluginRegistrationCode.UnknownError
+  fullName: BBI.Common.Protobuf.PluginRegistrationReply.Types.PluginRegistrationCode.UnknownError
+  nameWithType: PluginRegistrationReply.Types.PluginRegistrationCode.UnknownError
 - uid: BBI.Common.Protobuf.PluginRegistrationReply.WriteTo(Google.Protobuf.CodedOutputStream)
-  name: WriteTo(Google.Protobuf.CodedOutputStream)
+  name: WriteTo(CodedOutputStream)
   href: api/BBI.Common.Protobuf.PluginRegistrationReply.html#BBI_Common_Protobuf_PluginRegistrationReply_WriteTo_Google_Protobuf_CodedOutputStream_
   commentId: M:BBI.Common.Protobuf.PluginRegistrationReply.WriteTo(Google.Protobuf.CodedOutputStream)
   fullName: BBI.Common.Protobuf.PluginRegistrationReply.WriteTo(Google.Protobuf.CodedOutputStream)
-  nameWithType: PluginRegistrationReply.WriteTo(Google.Protobuf.CodedOutputStream)
+  nameWithType: PluginRegistrationReply.WriteTo(CodedOutputStream)
 - uid: BBI.Common.Protobuf.PluginRegistrationReply.WriteTo*
   name: WriteTo
   href: api/BBI.Common.Protobuf.PluginRegistrationReply.html#BBI_Common_Protobuf_PluginRegistrationReply_WriteTo_
@@ -829,6 +1627,276 @@ references:
   commentId: Overload:BBI.Common.Tests.BlinkConfigSerializationTest.TestSerializeConfig
   fullName: BBI.Common.Tests.BlinkConfigSerializationTest.TestSerializeConfig
   nameWithType: BlinkConfigSerializationTest.TestSerializeConfig
+- uid: BBI.GitLabCI
+  name: BBI.GitLabCI
+  href: api/BBI.GitLabCI.html
+  commentId: N:BBI.GitLabCI
+  fullName: BBI.GitLabCI
+  nameWithType: BBI.GitLabCI
+- uid: BBI.GitLabCI.GitLabCIPlugin
+  name: GitLabCIPlugin
+  href: api/BBI.GitLabCI.GitLabCIPlugin.html
+  commentId: T:BBI.GitLabCI.GitLabCIPlugin
+  fullName: BBI.GitLabCI.GitLabCIPlugin
+  nameWithType: GitLabCIPlugin
+- uid: BBI.GitLabCI.GitLabCIPlugin.#ctor(System.Action)
+  name: GitLabCIPlugin(Action)
+  href: api/BBI.GitLabCI.GitLabCIPlugin.html#BBI_GitLabCI_GitLabCIPlugin__ctor_System_Action_
+  commentId: M:BBI.GitLabCI.GitLabCIPlugin.#ctor(System.Action)
+  fullName: BBI.GitLabCI.GitLabCIPlugin.GitLabCIPlugin(System.Action)
+  nameWithType: GitLabCIPlugin.GitLabCIPlugin(Action)
+- uid: BBI.GitLabCI.GitLabCIPlugin.#ctor*
+  name: GitLabCIPlugin
+  href: api/BBI.GitLabCI.GitLabCIPlugin.html#BBI_GitLabCI_GitLabCIPlugin__ctor_
+  commentId: Overload:BBI.GitLabCI.GitLabCIPlugin.#ctor
+  fullName: BBI.GitLabCI.GitLabCIPlugin.GitLabCIPlugin
+  nameWithType: GitLabCIPlugin.GitLabCIPlugin
+- uid: BBI.GitLabCI.GitLabCIPlugin.GetCurrentState(BBI.Common.Protobuf.CIRequest,Grpc.Core.ServerCallContext)
+  name: GetCurrentState(CIRequest, ServerCallContext)
+  href: api/BBI.GitLabCI.GitLabCIPlugin.html#BBI_GitLabCI_GitLabCIPlugin_GetCurrentState_BBI_Common_Protobuf_CIRequest_Grpc_Core_ServerCallContext_
+  commentId: M:BBI.GitLabCI.GitLabCIPlugin.GetCurrentState(BBI.Common.Protobuf.CIRequest,Grpc.Core.ServerCallContext)
+  fullName: BBI.GitLabCI.GitLabCIPlugin.GetCurrentState(BBI.Common.Protobuf.CIRequest, Grpc.Core.ServerCallContext)
+  nameWithType: GitLabCIPlugin.GetCurrentState(CIRequest, ServerCallContext)
+- uid: BBI.GitLabCI.GitLabCIPlugin.GetCurrentState*
+  name: GetCurrentState
+  href: api/BBI.GitLabCI.GitLabCIPlugin.html#BBI_GitLabCI_GitLabCIPlugin_GetCurrentState_
+  commentId: Overload:BBI.GitLabCI.GitLabCIPlugin.GetCurrentState
+  fullName: BBI.GitLabCI.GitLabCIPlugin.GetCurrentState
+  nameWithType: GitLabCIPlugin.GetCurrentState
+- uid: BBI.GitLabCI.GitLabCIPlugin.Shutdown(BBI.Common.Protobuf.Empty,Grpc.Core.ServerCallContext)
+  name: Shutdown(Empty, ServerCallContext)
+  href: api/BBI.GitLabCI.GitLabCIPlugin.html#BBI_GitLabCI_GitLabCIPlugin_Shutdown_BBI_Common_Protobuf_Empty_Grpc_Core_ServerCallContext_
+  commentId: M:BBI.GitLabCI.GitLabCIPlugin.Shutdown(BBI.Common.Protobuf.Empty,Grpc.Core.ServerCallContext)
+  fullName: BBI.GitLabCI.GitLabCIPlugin.Shutdown(BBI.Common.Protobuf.Empty, Grpc.Core.ServerCallContext)
+  nameWithType: GitLabCIPlugin.Shutdown(Empty, ServerCallContext)
+- uid: BBI.GitLabCI.GitLabCIPlugin.Shutdown*
+  name: Shutdown
+  href: api/BBI.GitLabCI.GitLabCIPlugin.html#BBI_GitLabCI_GitLabCIPlugin_Shutdown_
+  commentId: Overload:BBI.GitLabCI.GitLabCIPlugin.Shutdown
+  fullName: BBI.GitLabCI.GitLabCIPlugin.Shutdown
+  nameWithType: GitLabCIPlugin.Shutdown
+- uid: BBI.GitLabCI.PluginCliOptions
+  name: PluginCliOptions
+  href: api/BBI.GitLabCI.PluginCliOptions.html
+  commentId: T:BBI.GitLabCI.PluginCliOptions
+  fullName: BBI.GitLabCI.PluginCliOptions
+  nameWithType: PluginCliOptions
+- uid: BBI.GitLabCI.PluginCliOptions.LaunchIp
+  name: LaunchIp
+  href: api/BBI.GitLabCI.PluginCliOptions.html#BBI_GitLabCI_PluginCliOptions_LaunchIp
+  commentId: P:BBI.GitLabCI.PluginCliOptions.LaunchIp
+  fullName: BBI.GitLabCI.PluginCliOptions.LaunchIp
+  nameWithType: PluginCliOptions.LaunchIp
+- uid: BBI.GitLabCI.PluginCliOptions.LaunchIp*
+  name: LaunchIp
+  href: api/BBI.GitLabCI.PluginCliOptions.html#BBI_GitLabCI_PluginCliOptions_LaunchIp_
+  commentId: Overload:BBI.GitLabCI.PluginCliOptions.LaunchIp
+  fullName: BBI.GitLabCI.PluginCliOptions.LaunchIp
+  nameWithType: PluginCliOptions.LaunchIp
+- uid: BBI.GitLabCI.PluginCliOptions.LaunchPort
+  name: LaunchPort
+  href: api/BBI.GitLabCI.PluginCliOptions.html#BBI_GitLabCI_PluginCliOptions_LaunchPort
+  commentId: P:BBI.GitLabCI.PluginCliOptions.LaunchPort
+  fullName: BBI.GitLabCI.PluginCliOptions.LaunchPort
+  nameWithType: PluginCliOptions.LaunchPort
+- uid: BBI.GitLabCI.PluginCliOptions.LaunchPort*
+  name: LaunchPort
+  href: api/BBI.GitLabCI.PluginCliOptions.html#BBI_GitLabCI_PluginCliOptions_LaunchPort_
+  commentId: Overload:BBI.GitLabCI.PluginCliOptions.LaunchPort
+  fullName: BBI.GitLabCI.PluginCliOptions.LaunchPort
+  nameWithType: PluginCliOptions.LaunchPort
+- uid: BBI.GitLabCI.PluginCliOptions.PluginName
+  name: PluginName
+  href: api/BBI.GitLabCI.PluginCliOptions.html#BBI_GitLabCI_PluginCliOptions_PluginName
+  commentId: P:BBI.GitLabCI.PluginCliOptions.PluginName
+  fullName: BBI.GitLabCI.PluginCliOptions.PluginName
+  nameWithType: PluginCliOptions.PluginName
+- uid: BBI.GitLabCI.PluginCliOptions.PluginName*
+  name: PluginName
+  href: api/BBI.GitLabCI.PluginCliOptions.html#BBI_GitLabCI_PluginCliOptions_PluginName_
+  commentId: Overload:BBI.GitLabCI.PluginCliOptions.PluginName
+  fullName: BBI.GitLabCI.PluginCliOptions.PluginName
+  nameWithType: PluginCliOptions.PluginName
+- uid: BBI.GitLabCI.PluginServer
+  name: PluginServer
+  href: api/BBI.GitLabCI.PluginServer.html
+  commentId: T:BBI.GitLabCI.PluginServer
+  fullName: BBI.GitLabCI.PluginServer
+  nameWithType: PluginServer
+- uid: BBI.GitLabCI.PluginServer.#ctor(BBI.GitLabCI.PluginCliOptions)
+  name: PluginServer(PluginCliOptions)
+  href: api/BBI.GitLabCI.PluginServer.html#BBI_GitLabCI_PluginServer__ctor_BBI_GitLabCI_PluginCliOptions_
+  commentId: M:BBI.GitLabCI.PluginServer.#ctor(BBI.GitLabCI.PluginCliOptions)
+  fullName: BBI.GitLabCI.PluginServer.PluginServer(BBI.GitLabCI.PluginCliOptions)
+  nameWithType: PluginServer.PluginServer(PluginCliOptions)
+- uid: BBI.GitLabCI.PluginServer.#ctor*
+  name: PluginServer
+  href: api/BBI.GitLabCI.PluginServer.html#BBI_GitLabCI_PluginServer__ctor_
+  commentId: Overload:BBI.GitLabCI.PluginServer.#ctor
+  fullName: BBI.GitLabCI.PluginServer.PluginServer
+  nameWithType: PluginServer.PluginServer
+- uid: BBI.GitLabCI.PluginServer.ExitHandle
+  name: ExitHandle
+  href: api/BBI.GitLabCI.PluginServer.html#BBI_GitLabCI_PluginServer_ExitHandle
+  commentId: P:BBI.GitLabCI.PluginServer.ExitHandle
+  fullName: BBI.GitLabCI.PluginServer.ExitHandle
+  nameWithType: PluginServer.ExitHandle
+- uid: BBI.GitLabCI.PluginServer.ExitHandle*
+  name: ExitHandle
+  href: api/BBI.GitLabCI.PluginServer.html#BBI_GitLabCI_PluginServer_ExitHandle_
+  commentId: Overload:BBI.GitLabCI.PluginServer.ExitHandle
+  fullName: BBI.GitLabCI.PluginServer.ExitHandle
+  nameWithType: PluginServer.ExitHandle
+- uid: BBI.GitLabCI.PluginServer.ShutdownAsync
+  name: ShutdownAsync()
+  href: api/BBI.GitLabCI.PluginServer.html#BBI_GitLabCI_PluginServer_ShutdownAsync
+  commentId: M:BBI.GitLabCI.PluginServer.ShutdownAsync
+  fullName: BBI.GitLabCI.PluginServer.ShutdownAsync()
+  nameWithType: PluginServer.ShutdownAsync()
+- uid: BBI.GitLabCI.PluginServer.ShutdownAsync*
+  name: ShutdownAsync
+  href: api/BBI.GitLabCI.PluginServer.html#BBI_GitLabCI_PluginServer_ShutdownAsync_
+  commentId: Overload:BBI.GitLabCI.PluginServer.ShutdownAsync
+  fullName: BBI.GitLabCI.PluginServer.ShutdownAsync
+  nameWithType: PluginServer.ShutdownAsync
+- uid: BBI.GitLabCI.PluginServer.Start
+  name: Start()
+  href: api/BBI.GitLabCI.PluginServer.html#BBI_GitLabCI_PluginServer_Start
+  commentId: M:BBI.GitLabCI.PluginServer.Start
+  fullName: BBI.GitLabCI.PluginServer.Start()
+  nameWithType: PluginServer.Start()
+- uid: BBI.GitLabCI.PluginServer.Start*
+  name: Start
+  href: api/BBI.GitLabCI.PluginServer.html#BBI_GitLabCI_PluginServer_Start_
+  commentId: Overload:BBI.GitLabCI.PluginServer.Start
+  fullName: BBI.GitLabCI.PluginServer.Start
+  nameWithType: PluginServer.Start
+- uid: BBI.GitLabCI.Program
+  name: Program
+  href: api/BBI.GitLabCI.Program.html
+  commentId: T:BBI.GitLabCI.Program
+  fullName: BBI.GitLabCI.Program
+  nameWithType: Program
+- uid: BBI.GitLabCI.Program.Main(System.String[])
+  name: Main(String[])
+  href: api/BBI.GitLabCI.Program.html#BBI_GitLabCI_Program_Main_System_String___
+  commentId: M:BBI.GitLabCI.Program.Main(System.String[])
+  name.vb: Main(String())
+  fullName: BBI.GitLabCI.Program.Main(System.String[])
+  fullName.vb: BBI.GitLabCI.Program.Main(System.String())
+  nameWithType: Program.Main(String[])
+  nameWithType.vb: Program.Main(String())
+- uid: BBI.GitLabCI.Program.Main*
+  name: Main
+  href: api/BBI.GitLabCI.Program.html#BBI_GitLabCI_Program_Main_
+  commentId: Overload:BBI.GitLabCI.Program.Main
+  fullName: BBI.GitLabCI.Program.Main
+  nameWithType: Program.Main
+- uid: BBI.Service
+  name: BBI.Service
+  href: api/BBI.Service.html
+  commentId: N:BBI.Service
+  fullName: BBI.Service
+  nameWithType: BBI.Service
+- uid: BBI.Service.BlinkService
+  name: BlinkService
+  href: api/BBI.Service.BlinkService.html
+  commentId: T:BBI.Service.BlinkService
+  fullName: BBI.Service.BlinkService
+  nameWithType: BlinkService
+- uid: BBI.Service.BlinkService.#ctor(BBI.Common.Configuration.BlinkConfig)
+  name: BlinkService(BlinkConfig)
+  href: api/BBI.Service.BlinkService.html#BBI_Service_BlinkService__ctor_BBI_Common_Configuration_BlinkConfig_
+  commentId: M:BBI.Service.BlinkService.#ctor(BBI.Common.Configuration.BlinkConfig)
+  fullName: BBI.Service.BlinkService.BlinkService(BBI.Common.Configuration.BlinkConfig)
+  nameWithType: BlinkService.BlinkService(BlinkConfig)
+- uid: BBI.Service.BlinkService.#ctor*
+  name: BlinkService
+  href: api/BBI.Service.BlinkService.html#BBI_Service_BlinkService__ctor_
+  commentId: Overload:BBI.Service.BlinkService.#ctor
+  fullName: BBI.Service.BlinkService.BlinkService
+  nameWithType: BlinkService.BlinkService
+- uid: BBI.Service.BlinkService.Dispose
+  name: Dispose()
+  href: api/BBI.Service.BlinkService.html#BBI_Service_BlinkService_Dispose
+  commentId: M:BBI.Service.BlinkService.Dispose
+  fullName: BBI.Service.BlinkService.Dispose()
+  nameWithType: BlinkService.Dispose()
+- uid: BBI.Service.BlinkService.Dispose*
+  name: Dispose
+  href: api/BBI.Service.BlinkService.html#BBI_Service_BlinkService_Dispose_
+  commentId: Overload:BBI.Service.BlinkService.Dispose
+  fullName: BBI.Service.BlinkService.Dispose
+  nameWithType: BlinkService.Dispose
+- uid: BBI.Service.BlinkService.OnStarting
+  name: OnStarting()
+  href: api/BBI.Service.BlinkService.html#BBI_Service_BlinkService_OnStarting
+  commentId: M:BBI.Service.BlinkService.OnStarting
+  fullName: BBI.Service.BlinkService.OnStarting()
+  nameWithType: BlinkService.OnStarting()
+- uid: BBI.Service.BlinkService.OnStarting*
+  name: OnStarting
+  href: api/BBI.Service.BlinkService.html#BBI_Service_BlinkService_OnStarting_
+  commentId: Overload:BBI.Service.BlinkService.OnStarting
+  fullName: BBI.Service.BlinkService.OnStarting
+  nameWithType: BlinkService.OnStarting
+- uid: BBI.Service.BlinkService.OnStopping
+  name: OnStopping()
+  href: api/BBI.Service.BlinkService.html#BBI_Service_BlinkService_OnStopping
+  commentId: M:BBI.Service.BlinkService.OnStopping
+  fullName: BBI.Service.BlinkService.OnStopping()
+  nameWithType: BlinkService.OnStopping()
+- uid: BBI.Service.BlinkService.OnStopping*
+  name: OnStopping
+  href: api/BBI.Service.BlinkService.html#BBI_Service_BlinkService_OnStopping_
+  commentId: Overload:BBI.Service.BlinkService.OnStopping
+  fullName: BBI.Service.BlinkService.OnStopping
+  nameWithType: BlinkService.OnStopping
+- uid: BBI.Service.gRPC
+  name: BBI.Service.gRPC
+  href: api/BBI.Service.gRPC.html
+  commentId: N:BBI.Service.gRPC
+  fullName: BBI.Service.gRPC
+  nameWithType: BBI.Service.gRPC
+- uid: BBI.Service.gRPC.CIPluginHostImpl
+  name: CIPluginHostImpl
+  href: api/BBI.Service.gRPC.CIPluginHostImpl.html
+  commentId: T:BBI.Service.gRPC.CIPluginHostImpl
+  fullName: BBI.Service.gRPC.CIPluginHostImpl
+  nameWithType: CIPluginHostImpl
+- uid: BBI.Service.gRPC.CIPluginHostImpl.Register(BBI.Common.Protobuf.PluginRegistration,Grpc.Core.ServerCallContext)
+  name: Register(PluginRegistration, ServerCallContext)
+  href: api/BBI.Service.gRPC.CIPluginHostImpl.html#BBI_Service_gRPC_CIPluginHostImpl_Register_BBI_Common_Protobuf_PluginRegistration_Grpc_Core_ServerCallContext_
+  commentId: M:BBI.Service.gRPC.CIPluginHostImpl.Register(BBI.Common.Protobuf.PluginRegistration,Grpc.Core.ServerCallContext)
+  fullName: BBI.Service.gRPC.CIPluginHostImpl.Register(BBI.Common.Protobuf.PluginRegistration, Grpc.Core.ServerCallContext)
+  nameWithType: CIPluginHostImpl.Register(PluginRegistration, ServerCallContext)
+- uid: BBI.Service.gRPC.CIPluginHostImpl.Register*
+  name: Register
+  href: api/BBI.Service.gRPC.CIPluginHostImpl.html#BBI_Service_gRPC_CIPluginHostImpl_Register_
+  commentId: Overload:BBI.Service.gRPC.CIPluginHostImpl.Register
+  fullName: BBI.Service.gRPC.CIPluginHostImpl.Register
+  nameWithType: CIPluginHostImpl.Register
+- uid: BBI.Service.Program
+  name: Program
+  href: api/BBI.Service.Program.html
+  commentId: T:BBI.Service.Program
+  fullName: BBI.Service.Program
+  nameWithType: Program
+- uid: BBI.Service.Program.Main(System.String[])
+  name: Main(String[])
+  href: api/BBI.Service.Program.html#BBI_Service_Program_Main_System_String___
+  commentId: M:BBI.Service.Program.Main(System.String[])
+  name.vb: Main(String())
+  fullName: BBI.Service.Program.Main(System.String[])
+  fullName.vb: BBI.Service.Program.Main(System.String())
+  nameWithType: Program.Main(String[])
+  nameWithType.vb: Program.Main(String())
+- uid: BBI.Service.Program.Main*
+  name: Main
+  href: api/BBI.Service.Program.html#BBI_Service_Program_Main_
+  commentId: Overload:BBI.Service.Program.Main
+  fullName: BBI.Service.Program.Main
+  nameWithType: Program.Main
 - uid: Blink1
   name: Blink1
   href: api/Blink1.html

@@ -5,14 +5,50 @@
   "files": [
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/BBI.CIPluginTests.Common.CIPluginTestHost.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BBI.CIPluginTests.Common.CIPluginTestHost.html",
+          "hash": "gZEFVPWWCDt4kz00gmFpBA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BBI.CIPluginTests.Common.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BBI.CIPluginTests.Common.html",
+          "hash": "6VISzmYKeeStwXnio49ouA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BBI.Common.BBIConstants.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BBI.Common.BBIConstants.html",
+          "hash": "4TeDn2d7ca4WSW93ByYfeA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/BBI.Common.Configuration.BlinkConfig.yml",
       "output": {
         ".html": {
           "relative_path": "api/BBI.Common.Configuration.BlinkConfig.html",
-          "hash": "owRWiSh/0zM0wCZ9VhPYEw=="
+          "hash": "7HOw2QtkCII+zhAFHCzfeQ=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -21,10 +57,10 @@
       "output": {
         ".html": {
           "relative_path": "api/BBI.Common.Configuration.ColorConfig.html",
-          "hash": "k9KyB76ukkEU3gWdUyeRmQ=="
+          "hash": "9RmTszyz6jW03D6kGS/zag=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -33,7 +69,31 @@
       "output": {
         ".html": {
           "relative_path": "api/BBI.Common.Configuration.html",
-          "hash": "bEwudBi5JimwyzxPTKsLfA=="
+          "hash": "deBLP2Gj51lmmfCRIrsw3Q=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BBI.Common.Exceptions.PluginNotRegisteredException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BBI.Common.Exceptions.PluginNotRegisteredException.html",
+          "hash": "cpMl4dTLqcUZdSk88dK9OQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BBI.Common.Exceptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BBI.Common.Exceptions.html",
+          "hash": "0qYBUvcKFo0vfPCvUlx2sQ=="
         }
       },
       "is_incremental": false,
@@ -45,7 +105,7 @@
       "output": {
         ".html": {
           "relative_path": "api/BBI.Common.Protobuf.CIRequest.html",
-          "hash": "PCbGJ5jWM+OfaKDlIK+9rA=="
+          "hash": "SQZ3XqD1jyWiXe4GH/kpuA=="
         }
       },
       "is_incremental": false,
@@ -57,10 +117,10 @@
       "output": {
         ".html": {
           "relative_path": "api/BBI.Common.Protobuf.CIResponse.Types.CIResponseType.html",
-          "hash": "cJuGhL0LzVnx8iToOFEB3g=="
+          "hash": "PclXlVSGG+6S7W+QyS3Zkw=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -69,10 +129,10 @@
       "output": {
         ".html": {
           "relative_path": "api/BBI.Common.Protobuf.CIResponse.Types.html",
-          "hash": "wugh2j7ibSAXGtO1mQrpqg=="
+          "hash": "ti5Sy+LOi3rFMDT3uRDVyg=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -81,7 +141,139 @@
       "output": {
         ".html": {
           "relative_path": "api/BBI.Common.Protobuf.CIResponse.html",
-          "hash": "9nunqABqpR3PRuDV52A6bQ=="
+          "hash": "Z9ZdEScnzJrqayO6f8WkUg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BBI.Common.Protobuf.Empty.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BBI.Common.Protobuf.Empty.html",
+          "hash": "rJwDsHUox07wDR3qODXpbg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BBI.Common.Protobuf.Plugin.CIPlugin.CIPluginBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BBI.Common.Protobuf.Plugin.CIPlugin.CIPluginBase.html",
+          "hash": "0uGbWOHMqT0Fk+gV+HmyDA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BBI.Common.Protobuf.Plugin.CIPlugin.CIPluginClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BBI.Common.Protobuf.Plugin.CIPlugin.CIPluginClient.html",
+          "hash": "wx6o/7IxZgZol9WZL8foqg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BBI.Common.Protobuf.Plugin.CIPlugin.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BBI.Common.Protobuf.Plugin.CIPlugin.html",
+          "hash": "S4xofiGYN/ltDtp7U879dg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BBI.Common.Protobuf.Plugin.CIPluginReflection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BBI.Common.Protobuf.Plugin.CIPluginReflection.html",
+          "hash": "tFY7kicx14fkDZdfXD6r+w=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BBI.Common.Protobuf.Plugin.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BBI.Common.Protobuf.Plugin.html",
+          "hash": "6uZRDNCAcWVqKD1V0KEh7g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BBI.Common.Protobuf.PluginHost.CIPluginHost.CIPluginHostBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BBI.Common.Protobuf.PluginHost.CIPluginHost.CIPluginHostBase.html",
+          "hash": "7qb0RCJ8ziMigdqCNmc/0Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BBI.Common.Protobuf.PluginHost.CIPluginHost.CIPluginHostClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BBI.Common.Protobuf.PluginHost.CIPluginHost.CIPluginHostClient.html",
+          "hash": "xjCkZUo4tNuwkANtyfhaJQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BBI.Common.Protobuf.PluginHost.CIPluginHost.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BBI.Common.Protobuf.PluginHost.CIPluginHost.html",
+          "hash": "1PgzF+4j5Gq7Oc7X0o6KeA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BBI.Common.Protobuf.PluginHost.CIPluginHostReflection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BBI.Common.Protobuf.PluginHost.CIPluginHostReflection.html",
+          "hash": "uyWyZfRbQrpHgiPfqG17Pg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BBI.Common.Protobuf.PluginHost.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BBI.Common.Protobuf.PluginHost.html",
+          "hash": "AwdsOC+4x0581fORlTj/Og=="
         }
       },
       "is_incremental": false,
@@ -93,10 +285,10 @@
       "output": {
         ".html": {
           "relative_path": "api/BBI.Common.Protobuf.PluginMessagesReflection.html",
-          "hash": "knTSFZJD1iXY4OfovxG9zg=="
+          "hash": "eTVscClqlPu/fmo1wfWDug=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -105,10 +297,34 @@
       "output": {
         ".html": {
           "relative_path": "api/BBI.Common.Protobuf.PluginRegistration.html",
-          "hash": "+W6kFPMe62i+MZsdNFbODQ=="
+          "hash": "VHQhu6jyy6GDl5VvAfSJJQ=="
         }
       },
       "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BBI.Common.Protobuf.PluginRegistrationReply.Types.PluginRegistrationCode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BBI.Common.Protobuf.PluginRegistrationReply.Types.PluginRegistrationCode.html",
+          "hash": "hGV6WTMlO5/G6Ht/iduU5Q=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BBI.Common.Protobuf.PluginRegistrationReply.Types.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BBI.Common.Protobuf.PluginRegistrationReply.Types.html",
+          "hash": "WFqcf3kRb84xvNgKKQmdzQ=="
+        }
+      },
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -117,7 +333,7 @@
       "output": {
         ".html": {
           "relative_path": "api/BBI.Common.Protobuf.PluginRegistrationReply.html",
-          "hash": "QAEjXT2Tf8vN9z1RwlsmCg=="
+          "hash": "AUIKVKSTTvHIxGiSitJmnA=="
         }
       },
       "is_incremental": false,
@@ -129,7 +345,7 @@
       "output": {
         ".html": {
           "relative_path": "api/BBI.Common.Protobuf.html",
-          "hash": "wbox2QKTipfT9GU8gTp1kw=="
+          "hash": "EuINjD4pnBmtxOgCBp3Q2w=="
         }
       },
       "is_incremental": false,
@@ -141,10 +357,10 @@
       "output": {
         ".html": {
           "relative_path": "api/BBI.Common.Tests.BlinkConfigSerializationTest.html",
-          "hash": "yeb3GjA0SedyOpD2Caxnbg=="
+          "hash": "xQ+JBuM5/t5gNFilv2GJIg=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -153,7 +369,139 @@
       "output": {
         ".html": {
           "relative_path": "api/BBI.Common.Tests.html",
-          "hash": "8U3A2IUjcir8PQI02v++EQ=="
+          "hash": "y3BxMsKPrxCGGXpAlkAlnQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BBI.Common.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BBI.Common.html",
+          "hash": "wvSv5oEWEa1GAiJr8NzOdA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BBI.GitLabCI.GitLabCIPlugin.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BBI.GitLabCI.GitLabCIPlugin.html",
+          "hash": "hlawZEtY9GAllZIItR2KBw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BBI.GitLabCI.PluginCliOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BBI.GitLabCI.PluginCliOptions.html",
+          "hash": "TqY+jCHaGUhcvx2Y66yeyQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BBI.GitLabCI.PluginServer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BBI.GitLabCI.PluginServer.html",
+          "hash": "1irnFMHBknBQyYBnbzS6mQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BBI.GitLabCI.Program.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BBI.GitLabCI.Program.html",
+          "hash": "dAXEsqMLvxx8uQXQ7asVlQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BBI.GitLabCI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BBI.GitLabCI.html",
+          "hash": "FkLHP0jIGxqEdY/fCTDTFg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BBI.Service.BlinkService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BBI.Service.BlinkService.html",
+          "hash": "H17tvgsan6K0PgMnNOjBEg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BBI.Service.Program.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BBI.Service.Program.html",
+          "hash": "SIFznpheOcZymEe9ZUUARA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BBI.Service.gRPC.CIPluginHostImpl.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BBI.Service.gRPC.CIPluginHostImpl.html",
+          "hash": "K6tdlGA9Xk9X11wUrGsBqg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BBI.Service.gRPC.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BBI.Service.gRPC.html",
+          "hash": "bufjcXGFNb7E1hhLxXUGtA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BBI.Service.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BBI.Service.html",
+          "hash": "pDrrY71eaAlUIqTyiowa5A=="
         }
       },
       "is_incremental": false,
@@ -165,7 +513,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Blink1.Blink1.html",
-          "hash": "vPrgneiOWFx+ZkyQ6GA21A=="
+          "hash": "gk4Uph+vCr3AzjesQosXmg=="
         }
       },
       "is_incremental": false,
@@ -177,10 +525,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Blink1.Blink1Constant.html",
-          "hash": "HlZtu+jQydQMKKYBE7Zfxg=="
+          "hash": "6kQvfi/+lxx25tCNwNmC8Q=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -189,7 +537,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Blink1.Blink1Preset.html",
-          "hash": "lk6w6t78+8wyy+E8BmbOZw=="
+          "hash": "gkwMsKxAtmw69LO7Ho5+Qg=="
         }
       },
       "is_incremental": false,
@@ -201,7 +549,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Blink1.ColorProcessor.Cmyk.html",
-          "hash": "/tPjR3bX6GKfaUpZFioU7A=="
+          "hash": "y6sC8JpF4tfciLcOw/v9RQ=="
         }
       },
       "is_incremental": false,
@@ -213,7 +561,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Blink1.ColorProcessor.Hsb.html",
-          "hash": "vqEb4bxkb0zli6FZB7faVg=="
+          "hash": "lzfHsJLuz5oxa3ECt1Spxg=="
         }
       },
       "is_incremental": false,
@@ -225,7 +573,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Blink1.ColorProcessor.Hsl.html",
-          "hash": "lw7Lo1LpbUw8WXjF6yev4g=="
+          "hash": "EbcKveSudrjDgMoj5HE4yg=="
         }
       },
       "is_incremental": false,
@@ -237,10 +585,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Blink1.ColorProcessor.HtmlColorName.html",
-          "hash": "SRCt5xWOx6aMmhSKN7pP/g=="
+          "hash": "4Y74ZtgozLvvG6l8HipqYA=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -249,7 +597,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Blink1.ColorProcessor.HtmlHexadecimal.html",
-          "hash": "FH9GKzYzQG2hrxZGz+Dayg=="
+          "hash": "RxC5pCkptN+73UGi+qxDCA=="
         }
       },
       "is_incremental": false,
@@ -261,7 +609,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Blink1.ColorProcessor.IColorProcessor.html",
-          "hash": "A0UFLc9e5+vQE/U6zRuRgg=="
+          "hash": "DeyzAmZ1G14eKhxYnY52rQ=="
         }
       },
       "is_incremental": false,
@@ -273,7 +621,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Blink1.ColorProcessor.Rgb.html",
-          "hash": "2/ehi/WhWQDFqgIPepcmNw=="
+          "hash": "AnOda2EYhsQXBhgUC2kSrQ=="
         }
       },
       "is_incremental": false,
@@ -285,7 +633,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Blink1.ColorProcessor.html",
-          "hash": "4HTKeBHkBfRkP55KNhG10A=="
+          "hash": "DQlIGDqNunjPYWwVsmflvw=="
         }
       },
       "is_incremental": false,
@@ -297,7 +645,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Blink1.IBlink1.html",
-          "hash": "N3F5Hgk7u9+plaueAwo8XQ=="
+          "hash": "961DOFhkV2B+7X1S4j2/Fw=="
         }
       },
       "is_incremental": false,
@@ -309,7 +657,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Blink1.html",
-          "hash": "2okHRfun/sqPGLprMWlkaQ=="
+          "hash": "XqUqSHCjf1toAOMt1zOCug=="
         }
       },
       "is_incremental": false,
@@ -321,10 +669,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Hid.HidAsyncState.html",
-          "hash": "7+0+JmxRGtRYtU9KeOTwhg=="
+          "hash": "KRVLBUt8SFc6FA9tTLIAiQ=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -333,10 +681,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Hid.HidDevice.DeviceMode.html",
-          "hash": "Slc3PiLmWPriXuDbMOag9g=="
+          "hash": "+cvZQSFaZCAin/eUwtPy4Q=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -345,10 +693,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Hid.HidDevice.InsertedEventHandler.html",
-          "hash": "+PKoJpWwxd4qpTIrVUWEcg=="
+          "hash": "CiWQ2daTIpvwEWbl8RYiGw=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -357,10 +705,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Hid.HidDevice.ReadCallback.html",
-          "hash": "yXrBItrOoDrsbfpuxmK5dg=="
+          "hash": "aAa/GUSh2RTar3DLw8e1Lw=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -369,10 +717,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Hid.HidDevice.ReadReportCallback.html",
-          "hash": "DqwOAJ0x+a1MqEjxUfDLqQ=="
+          "hash": "hOtwrRuURomvZftgMLxEgw=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -381,10 +729,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Hid.HidDevice.RemovedEventHandler.html",
-          "hash": "xBBt9ka6UDl7IzyfgrgJrg=="
+          "hash": "KNdwXFWohnefG8kdLGfOiA=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -393,10 +741,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Hid.HidDevice.WriteCallback.html",
-          "hash": "vkcP7YMYGrM0lH0a+9aSog=="
+          "hash": "PJ4J8NCyU3FRgYJcEqISqA=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -405,7 +753,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Hid.HidDevice.html",
-          "hash": "x6KYLgl38pc7Z+eyIJHQdA=="
+          "hash": "YS0tx5i6NCrQ2SNFZoo+yA=="
         }
       },
       "is_incremental": false,
@@ -417,10 +765,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Hid.HidDeviceAttributes.html",
-          "hash": "1y49OBMlpkwb4ZUoLzGMig=="
+          "hash": "TYKQS4dndnZfzmHGZMm1Vw=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -429,10 +777,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Hid.HidDeviceCapabilities.html",
-          "hash": "apV1d+IK2JjHglTNLJFEtA=="
+          "hash": "M2EXm7t0FaOeSvE5rtvthA=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -441,10 +789,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Hid.HidDeviceData.ReadStatus.html",
-          "hash": "z0TEYTjXRciCRz4LshvkJQ=="
+          "hash": "TAENu4F84P4+SIjcXSzrZw=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -453,10 +801,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Hid.HidDeviceData.html",
-          "hash": "Ke8akEPrNTRbPe8gOTbSCQ=="
+          "hash": "k7dmVFdQM6kgX7LvPqF+BQ=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -465,7 +813,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Hid.HidDevices.html",
-          "hash": "FgD9YlZnjKqci+nh9KsGag=="
+          "hash": "MlHNQrhdeSUXPgMBKWNKWw=="
         }
       },
       "is_incremental": false,
@@ -477,10 +825,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Hid.HidReport.html",
-          "hash": "Ubo1IdFDoGXWLRuK5uEAOw=="
+          "hash": "dFttHCyfAo1UXaonO874bw=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -489,7 +837,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Hid.html",
-          "hash": "/y/4dX8nMlTqChsbB8Zihg=="
+          "hash": "VxQIUlQJyTbQHi5F8vnSRA=="
         }
       },
       "is_incremental": false,
@@ -501,10 +849,10 @@
       "output": {
         ".html": {
           "relative_path": "api/ThingM.Blink1.Blink1Info.html",
-          "hash": "RDQlKlbksKaEqJGl6oG5Sg=="
+          "hash": "gvXCmejRda5ogsesVvjgQQ=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -513,10 +861,10 @@
       "output": {
         ".html": {
           "relative_path": "api/ThingM.Blink1.html",
-          "hash": "LF+oY0Opni5P5dWWJ0zqrQ=="
+          "hash": "t4HCu28AM/tqBMOgLclptQ=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -525,10 +873,22 @@
       "output": {
         ".html": {
           "relative_path": "api/index.html",
-          "hash": "XvVkPJJEquotIR4e7QvbcA=="
+          "hash": "EbppNalGjwo8Qz5Oe1YJPQ=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "documentation/architecture.md",
+      "output": {
+        ".html": {
+          "relative_path": "documentation/architecture.html",
+          "hash": "++5e+Ftosv1vlyZylwqCzA=="
+        }
+      },
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -537,10 +897,10 @@
       "output": {
         ".html": {
           "relative_path": "documentation/intro.html",
-          "hash": "TLkaRI61RxP9s1YeKlEDGA=="
+          "hash": "80x9U/frCIVQ5g4FMR08yg=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -549,18 +909,17 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "WUsEIi1JbNtRyAE/2xZHAA=="
+          "hash": "KW7/kEK8tVmImlQyZA+v3w=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     }
   ],
   "incremental_info": [
     {
       "status": {
-        "can_incremental": false,
-        "details": "Cannot build incrementally because last build info is missing.",
+        "can_incremental": true,
         "incrementalPhase": "build"
       },
       "processors": {
@@ -570,19 +929,19 @@
           "incrementalPhase": "build"
         },
         "ManagedReferenceDocumentProcessor": {
-          "can_incremental": false,
+          "can_incremental": true,
           "incrementalPhase": "build"
         },
         "ConceptualDocumentProcessor": {
-          "can_incremental": false,
+          "can_incremental": true,
           "incrementalPhase": "build"
         }
       }
     },
     {
       "status": {
-        "can_incremental": false,
-        "details": "Cannot support incremental post processing, the reason is: last post processor info is null.",
+        "can_incremental": true,
+        "details": "Can support incremental post processing.",
         "incrementalPhase": "postProcessing"
       },
       "processors": {}

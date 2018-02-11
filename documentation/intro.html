@@ -5,9 +5,9 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Add your introductions here! </title>
+    <title>BlinkBuildIndicator </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Add your introductions here! ">
+    <meta name="title" content="BlinkBuildIndicator ">
     <meta name="generator" content="docfx 2.31.0.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
@@ -82,6 +82,9 @@
                     <li class="active">
                       <a href="intro.html" title="Introduction" class="active">Introduction</a>
                     </li>
+                    <li class="">
+                      <a href="architecture.html" title="Architecture" class="">Architecture</a>
+                    </li>
                   </ul>        </div>
               </div>
             </div>
@@ -90,8 +93,14 @@
         <div class="article row grid-right">
           <div class="col-md-10">
             <article class="content wrap" id="_content" data-uid="">
-<h1 id="add-your-introductions-here">Add your introductions here!</h1>
+<h1 id="blinkbuildindicator">BlinkBuildIndicator</h1>
 
+<p>The project consists of two solutions:</p>
+<ul>
+<li>BlinkBuildIndicator.sln - this is where the main projects resides - means, the service, the code required to control the blink(1) device and the corresponding test cases</li>
+<li>BlinkBuildIndicatorPlugins.sln - this is where all plugins and their unit tests are located at</li>
+</ul>
+<p>The plugins in this repository will all be implemented with C# and DotNET Core but it&#39;s also possible to implement custom plugins in other languages as long as they are able to communicate through <a href="https://grpc.io">gRPC</a>.</p>
 </article>
           </div>
           
