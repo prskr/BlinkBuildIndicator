@@ -4,6 +4,10 @@ option csharp_namespace = "BBI.Common.Protobuf";
 
 package BBI.Protobuf;
 
+message Empty {
+    
+}
+
 message CIRequest {
     string username = 1;
     string password = 2;
@@ -23,8 +27,16 @@ message CIResponse {
 
 message PluginRegistration {
     string pluginName = 1;
+    int32 pluginPort = 2;
 }
 
 message PluginRegistrationReply {
-
+    enum PluginRegistrationCode {
+        SUCCESS = 0;
+        CONFLICTING_NAME = 1;
+        CONFLICTING_PORT = 2;
+        UNKNOWN_ERROR = 3;
+    }
+    
+    PluginRegistrationCode registrationCode = 1;
 }

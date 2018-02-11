@@ -16,9 +16,10 @@ If(!(Test-Path -Path "packages\Grpc.Tools\tools\windows_x64\protoc.exe")) {
 # generate PluginMessages
 New-Item -ItemType Directory -Force -Path $protobuf_out
 packages\Grpc.Tools\tools\windows_x64\protoc.exe --proto_path=protobuf --csharp_out "protobuf_out" "PluginMessages.proto" --plugin="packages\Grpc.Tools\tools\windows_x64\grpc_csharp_plugin.exe"
-Move-Item -Force -Path .\protobuf_out\PluginMessages.cs -Destination .\lib\BBI.Common\Protobuf
-Remove-Item -Force -Recurse "$protobuf_out/*"
-
 packages\Grpc.Tools\tools\windows_x64\protoc.exe -Iprotobuf --csharp_out "protobuf_out" --grpc_out "protobuf_out" "CIPluginHost.proto" --plugin="protoc-gen-grpc=packages\Grpc.Tools\tools\windows_x64\grpc_csharp_plugin.exe"
-Move-Item -Force -Path .\protobuf_out\CIPluginHost* -Destination .\bin\BBI.Service\gRPC
-Remove-Item -Force -Recurse $protobuf_out
+packages\Grpc.Tools\tools\windows_x64\protoc.exe -Iprotobuf --csharp_out "protobuf_out" --grpc_out "protobuf_out" "CIPlugin.proto" --plugin="protoc-gen-grpc=packages\Grpc.Tools\tools\windows_x64\grpc_csharp_plugin.exe"
+Move-Item -Force -Path .\protobuf_out\CIPluginHost* -Destination .\lib\BBI.Common\Protobuf\PluginHost
+Move-Item -Force -Path .\protobuf_out\CIPlugin* -Destination .\lib\BBI.Common\Protobuf\Plugin
+Move-Item -Force -Path .\protobuf_out\* -Destination .\lib\BBI.Common\Protobuf
+Remove-Item -Force -Recurse $protobuf_out/*
+

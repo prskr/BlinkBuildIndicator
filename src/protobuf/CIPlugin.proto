@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option csharp_namespace = "BBI.Common.Protobuf.Plugin";
+
+package BBI.Protobuf.Hosts;
+
+import "PluginMessages.proto";
+
+service CIPlugin {
+    rpc GetCurrentState(BBI.Protobuf.CIRequest) returns (BBI.Protobuf.CIResponse) {}
+    rpc Shutdown(BBI.Protobuf.Empty) returns (BBI.Protobuf.Empty) {}
+}

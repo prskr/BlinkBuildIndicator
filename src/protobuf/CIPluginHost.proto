@@ -1,11 +1,11 @@
 syntax = "proto3";
 
-option csharp_namespace = "BBI.Service.gRPC";
+option csharp_namespace = "BBI.Common.Protobuf.PluginHost";
 
-package BBI.Protobuf;
+package BBI.Protobuf.Hosts;
 
 import "PluginMessages.proto";
 
 service CIPluginHost {
-    rpc Register(PluginRegistration) returns (PluginRegistrationReply) {}
+    rpc Register(BBI.Protobuf.PluginRegistration) returns (BBI.Protobuf.PluginRegistrationReply) {}
 }

@@ -22,27 +22,122 @@ namespace BBI.Common.Protobuf {
     static PluginMessagesReflection() {
       byte[] descriptorData = global::System.Convert.FromBase64String(
           string.Concat(
-            "ChRQbHVnaW5NZXNzYWdlcy5wcm90bxIMQkJJLlByb3RvYnVmIm0KCUNJUmVx",
-            "dWVzdBIQCgh1c2VybmFtZRgBIAEoCRIQCghwYXNzd29yZBgCIAEoCRIOCgZ1",
-            "c2VTU0wYAyABKAgSHAoUYnVpbGRDb25maWd1cmF0aW9uSWQYBCABKAkSDgoG",
-            "YnJhbmNoGAUgASgJIm0KCkNJUmVzcG9uc2USNQoEdHlwZRgBIAEoDjInLkJC",
-            "SS5Qcm90b2J1Zi5DSVJlc3BvbnNlLkNJUmVzcG9uc2VUeXBlIigKDkNJUmVz",
-            "cG9uc2VUeXBlEgsKB1NVQ0NFU1MQABIJCgVFUlJPUhABIigKElBsdWdpblJl",
-            "Z2lzdHJhdGlvbhISCgpwbHVnaW5OYW1lGAEgASgJIhkKF1BsdWdpblJlZ2lz",
-            "dHJhdGlvblJlcGx5QhaqAhNCQkkuQ29tbW9uLlByb3RvYnVmYgZwcm90bzM="));
+            "ChRQbHVnaW5NZXNzYWdlcy5wcm90bxIMQkJJLlByb3RvYnVmIgcKBUVtcHR5",
+            "Im0KCUNJUmVxdWVzdBIQCgh1c2VybmFtZRgBIAEoCRIQCghwYXNzd29yZBgC",
+            "IAEoCRIOCgZ1c2VTU0wYAyABKAgSHAoUYnVpbGRDb25maWd1cmF0aW9uSWQY",
+            "BCABKAkSDgoGYnJhbmNoGAUgASgJIm0KCkNJUmVzcG9uc2USNQoEdHlwZRgB",
+            "IAEoDjInLkJCSS5Qcm90b2J1Zi5DSVJlc3BvbnNlLkNJUmVzcG9uc2VUeXBl",
+            "IigKDkNJUmVzcG9uc2VUeXBlEgsKB1NVQ0NFU1MQABIJCgVFUlJPUhABIjwK",
+            "ElBsdWdpblJlZ2lzdHJhdGlvbhISCgpwbHVnaW5OYW1lGAEgASgJEhIKCnBs",
+            "dWdpblBvcnQYAiABKAUi1wEKF1BsdWdpblJlZ2lzdHJhdGlvblJlcGx5ElYK",
+            "EHJlZ2lzdHJhdGlvbkNvZGUYASABKA4yPC5CQkkuUHJvdG9idWYuUGx1Z2lu",
+            "UmVnaXN0cmF0aW9uUmVwbHkuUGx1Z2luUmVnaXN0cmF0aW9uQ29kZSJkChZQ",
+            "bHVnaW5SZWdpc3RyYXRpb25Db2RlEgsKB1NVQ0NFU1MQABIUChBDT05GTElD",
+            "VElOR19OQU1FEAESFAoQQ09ORkxJQ1RJTkdfUE9SVBACEhEKDVVOS05PV05f",
+            "RVJST1IQA0IWqgITQkJJLkNvbW1vbi5Qcm90b2J1ZmIGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { },
           new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
+            new pbr::GeneratedClrTypeInfo(typeof(global::BBI.Common.Protobuf.Empty), global::BBI.Common.Protobuf.Empty.Parser, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::BBI.Common.Protobuf.CIRequest), global::BBI.Common.Protobuf.CIRequest.Parser, new[]{ "Username", "Password", "UseSSL", "BuildConfigurationId", "Branch" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::BBI.Common.Protobuf.CIResponse), global::BBI.Common.Protobuf.CIResponse.Parser, new[]{ "Type" }, null, new[]{ typeof(global::BBI.Common.Protobuf.CIResponse.Types.CIResponseType) }, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::BBI.Common.Protobuf.PluginRegistration), global::BBI.Common.Protobuf.PluginRegistration.Parser, new[]{ "PluginName" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::BBI.Common.Protobuf.PluginRegistrationReply), global::BBI.Common.Protobuf.PluginRegistrationReply.Parser, null, null, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::BBI.Common.Protobuf.PluginRegistration), global::BBI.Common.Protobuf.PluginRegistration.Parser, new[]{ "PluginName", "PluginPort" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::BBI.Common.Protobuf.PluginRegistrationReply), global::BBI.Common.Protobuf.PluginRegistrationReply.Parser, new[]{ "RegistrationCode" }, null, new[]{ typeof(global::BBI.Common.Protobuf.PluginRegistrationReply.Types.PluginRegistrationCode) }, null)
           }));
     }
     #endregion
 
   }
   #region Messages
+  public sealed partial class Empty : pb::IMessage<Empty> {
+    private static readonly pb::MessageParser<Empty> _parser = new pb::MessageParser<Empty>(() => new Empty());
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<Empty> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::BBI.Common.Protobuf.PluginMessagesReflection.Descriptor.MessageTypes[0]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public Empty() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public Empty(Empty other) : this() {
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public Empty Clone() {
+      return new Empty(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as Empty);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(Empty other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      return true;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(Empty other) {
+      if (other == null) {
+        return;
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            input.SkipLastField();
+            break;
+        }
+      }
+    }
+
+  }
+
   public sealed partial class CIRequest : pb::IMessage<CIRequest> {
     private static readonly pb::MessageParser<CIRequest> _parser = new pb::MessageParser<CIRequest>(() => new CIRequest());
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -50,7 +145,7 @@ namespace BBI.Common.Protobuf {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::BBI.Common.Protobuf.PluginMessagesReflection.Descriptor.MessageTypes[0]; }
+      get { return global::BBI.Common.Protobuf.PluginMessagesReflection.Descriptor.MessageTypes[1]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -279,7 +374,7 @@ namespace BBI.Common.Protobuf {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::BBI.Common.Protobuf.PluginMessagesReflection.Descriptor.MessageTypes[1]; }
+      get { return global::BBI.Common.Protobuf.PluginMessagesReflection.Descriptor.MessageTypes[2]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -408,7 +503,7 @@ namespace BBI.Common.Protobuf {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::BBI.Common.Protobuf.PluginMessagesReflection.Descriptor.MessageTypes[2]; }
+      get { return global::BBI.Common.Protobuf.PluginMessagesReflection.Descriptor.MessageTypes[3]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -426,6 +521,7 @@ namespace BBI.Common.Protobuf {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public PluginRegistration(PluginRegistration other) : this() {
       pluginName_ = other.pluginName_;
+      pluginPort_ = other.pluginPort_;
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -444,6 +540,17 @@ namespace BBI.Common.Protobuf {
       }
     }
 
+    /// <summary>Field number for the "pluginPort" field.</summary>
+    public const int PluginPortFieldNumber = 2;
+    private int pluginPort_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int PluginPort {
+      get { return pluginPort_; }
+      set {
+        pluginPort_ = value;
+      }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override bool Equals(object other) {
       return Equals(other as PluginRegistration);
@@ -458,6 +565,7 @@ namespace BBI.Common.Protobuf {
         return true;
       }
       if (PluginName != other.PluginName) return false;
+      if (PluginPort != other.PluginPort) return false;
       return true;
     }
 
@@ -465,6 +573,7 @@ namespace BBI.Common.Protobuf {
     public override int GetHashCode() {
       int hash = 1;
       if (PluginName.Length != 0) hash ^= PluginName.GetHashCode();
+      if (PluginPort != 0) hash ^= PluginPort.GetHashCode();
       return hash;
     }
 
@@ -479,6 +588,10 @@ namespace BBI.Common.Protobuf {
         output.WriteRawTag(10);
         output.WriteString(PluginName);
       }
+      if (PluginPort != 0) {
+        output.WriteRawTag(16);
+        output.WriteInt32(PluginPort);
+      }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -486,6 +599,9 @@ namespace BBI.Common.Protobuf {
       int size = 0;
       if (PluginName.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(PluginName);
+      }
+      if (PluginPort != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeInt32Size(PluginPort);
       }
       return size;
     }
@@ -497,6 +613,9 @@ namespace BBI.Common.Protobuf {
       }
       if (other.PluginName.Length != 0) {
         PluginName = other.PluginName;
+      }
+      if (other.PluginPort != 0) {
+        PluginPort = other.PluginPort;
       }
     }
 
@@ -512,6 +631,10 @@ namespace BBI.Common.Protobuf {
             PluginName = input.ReadString();
             break;
           }
+          case 16: {
+            PluginPort = input.ReadInt32();
+            break;
+          }
         }
       }
     }
@@ -525,7 +648,7 @@ namespace BBI.Common.Protobuf {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::BBI.Common.Protobuf.PluginMessagesReflection.Descriptor.MessageTypes[3]; }
+      get { return global::BBI.Common.Protobuf.PluginMessagesReflection.Descriptor.MessageTypes[4]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -542,11 +665,23 @@ namespace BBI.Common.Protobuf {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public PluginRegistrationReply(PluginRegistrationReply other) : this() {
+      registrationCode_ = other.registrationCode_;
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public PluginRegistrationReply Clone() {
       return new PluginRegistrationReply(this);
+    }
+
+    /// <summary>Field number for the "registrationCode" field.</summary>
+    public const int RegistrationCodeFieldNumber = 1;
+    private global::BBI.Common.Protobuf.PluginRegistrationReply.Types.PluginRegistrationCode registrationCode_ = 0;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::BBI.Common.Protobuf.PluginRegistrationReply.Types.PluginRegistrationCode RegistrationCode {
+      get { return registrationCode_; }
+      set {
+        registrationCode_ = value;
+      }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -562,12 +697,14 @@ namespace BBI.Common.Protobuf {
       if (ReferenceEquals(other, this)) {
         return true;
       }
+      if (RegistrationCode != other.RegistrationCode) return false;
       return true;
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override int GetHashCode() {
       int hash = 1;
+      if (RegistrationCode != 0) hash ^= RegistrationCode.GetHashCode();
       return hash;
     }
 
@@ -578,11 +715,18 @@ namespace BBI.Common.Protobuf {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public void WriteTo(pb::CodedOutputStream output) {
+      if (RegistrationCode != 0) {
+        output.WriteRawTag(8);
+        output.WriteEnum((int) RegistrationCode);
+      }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public int CalculateSize() {
       int size = 0;
+      if (RegistrationCode != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) RegistrationCode);
+      }
       return size;
     }
 
@@ -590,6 +734,9 @@ namespace BBI.Common.Protobuf {
     public void MergeFrom(PluginRegistrationReply other) {
       if (other == null) {
         return;
+      }
+      if (other.RegistrationCode != 0) {
+        RegistrationCode = other.RegistrationCode;
       }
     }
 
@@ -601,9 +748,27 @@ namespace BBI.Common.Protobuf {
           default:
             input.SkipLastField();
             break;
+          case 8: {
+            registrationCode_ = (global::BBI.Common.Protobuf.PluginRegistrationReply.Types.PluginRegistrationCode) input.ReadEnum();
+            break;
+          }
         }
       }
     }
+
+    #region Nested types
+    /// <summary>Container for nested types declared in the PluginRegistrationReply message type.</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static partial class Types {
+      public enum PluginRegistrationCode {
+        [pbr::OriginalName("SUCCESS")] Success = 0,
+        [pbr::OriginalName("CONFLICTING_NAME")] ConflictingName = 1,
+        [pbr::OriginalName("CONFLICTING_PORT")] ConflictingPort = 2,
+        [pbr::OriginalName("UNKNOWN_ERROR")] UnknownError = 3,
+      }
+
+    }
+    #endregion
 
   }
 

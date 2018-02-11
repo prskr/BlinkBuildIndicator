@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "lib", "lib", "{4EB525CA-F436-4B3E-966C-5E90E0335C1D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BBI.Common", "lib\BBI.Common\BBI.Common.csproj", "{ACA86A39-4C2C-400F-8C1F-44D0E5F8C488}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "plugins", "plugins", "{40C1C6D4-5656-4D19-A5C9-B790369F71C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BBI.GitLabCI", "plugins\BBI.GitLabCI\BBI.GitLabCI.csproj", "{2AD00D32-87CB-41C2-B082-45836CD91850}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{949DFC7A-B831-4CD8-AD01-C534E3666229}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BBI.CIPluginTests.Common", "test\BBI.CIPluginTests.Common\BBI.CIPluginTests.Common.csproj", "{D3F928CD-D110-406F-9AC7-C2F56846A856}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "protobuf", "protobuf", "{58E71C19-E633-4D36-9EE1-21B4DD1C85F7}"
+ProjectSection(SolutionItems) = preProject
+	protobuf\CIPlugin.proto = protobuf\CIPlugin.proto
+	protobuf\CIPluginHost.proto = protobuf\CIPluginHost.proto
+	protobuf\PluginMessages.proto = protobuf\PluginMessages.proto
+EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{ACA86A39-4C2C-400F-8C1F-44D0E5F8C488} = {4EB525CA-F436-4B3E-966C-5E90E0335C1D}
+		{2AD00D32-87CB-41C2-B082-45836CD91850} = {40C1C6D4-5656-4D19-A5C9-B790369F71C6}
+		{D3F928CD-D110-406F-9AC7-C2F56846A856} = {949DFC7A-B831-4CD8-AD01-C534E3666229}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ACA86A39-4C2C-400F-8C1F-44D0E5F8C488}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACA86A39-4C2C-400F-8C1F-44D0E5F8C488}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACA86A39-4C2C-400F-8C1F-44D0E5F8C488}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACA86A39-4C2C-400F-8C1F-44D0E5F8C488}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2AD00D32-87CB-41C2-B082-45836CD91850}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2AD00D32-87CB-41C2-B082-45836CD91850}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2AD00D32-87CB-41C2-B082-45836CD91850}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2AD00D32-87CB-41C2-B082-45836CD91850}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3F928CD-D110-406F-9AC7-C2F56846A856}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3F928CD-D110-406F-9AC7-C2F56846A856}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3F928CD-D110-406F-9AC7-C2F56846A856}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3F928CD-D110-406F-9AC7-C2F56846A856}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
