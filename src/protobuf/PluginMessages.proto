@@ -1,0 +1,30 @@
+syntax = "proto3";
+
+option csharp_namespace = "BBI.Common.Protobuf";
+
+package BBI.Protobuf;
+
+message CIRequest {
+    string username = 1;
+    string password = 2;
+    bool useSSL = 3;
+    string buildConfigurationId = 4;
+    string branch = 5;
+}
+
+message CIResponse {
+    enum CIResponseType {
+        SUCCESS = 0;
+        ERROR = 1;
+    }
+
+    CIResponseType type = 1;
+}
+
+message PluginRegistration {
+    string pluginName = 1;
+}
+
+message PluginRegistrationReply {
+
+}
