@@ -18,7 +18,6 @@ git checkout gh-pages
 
 echo "Clear repo directory"
 rm -rf *
-git rm -r *
 
 echo "Copy documentation into the repo"
 cp -r $TEMP_DOC_DIR .
