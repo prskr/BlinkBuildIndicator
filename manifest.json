@@ -1,0 +1,596 @@
+{
+  "homepages": [],
+  "source_base_path": "D:/Sources/Github/BlinkBuildIndicator/docs",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BBI.Common.Configuration.BlinkConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BBI.Common.Configuration.BlinkConfig.html",
+          "hash": "owRWiSh/0zM0wCZ9VhPYEw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BBI.Common.Configuration.ColorConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BBI.Common.Configuration.ColorConfig.html",
+          "hash": "k9KyB76ukkEU3gWdUyeRmQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BBI.Common.Configuration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BBI.Common.Configuration.html",
+          "hash": "bEwudBi5JimwyzxPTKsLfA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BBI.Common.Protobuf.CIRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BBI.Common.Protobuf.CIRequest.html",
+          "hash": "PCbGJ5jWM+OfaKDlIK+9rA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BBI.Common.Protobuf.CIResponse.Types.CIResponseType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BBI.Common.Protobuf.CIResponse.Types.CIResponseType.html",
+          "hash": "cJuGhL0LzVnx8iToOFEB3g=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BBI.Common.Protobuf.CIResponse.Types.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BBI.Common.Protobuf.CIResponse.Types.html",
+          "hash": "wugh2j7ibSAXGtO1mQrpqg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BBI.Common.Protobuf.CIResponse.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BBI.Common.Protobuf.CIResponse.html",
+          "hash": "9nunqABqpR3PRuDV52A6bQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BBI.Common.Protobuf.PluginMessagesReflection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BBI.Common.Protobuf.PluginMessagesReflection.html",
+          "hash": "knTSFZJD1iXY4OfovxG9zg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BBI.Common.Protobuf.PluginRegistration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BBI.Common.Protobuf.PluginRegistration.html",
+          "hash": "+W6kFPMe62i+MZsdNFbODQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BBI.Common.Protobuf.PluginRegistrationReply.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BBI.Common.Protobuf.PluginRegistrationReply.html",
+          "hash": "QAEjXT2Tf8vN9z1RwlsmCg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BBI.Common.Protobuf.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BBI.Common.Protobuf.html",
+          "hash": "wbox2QKTipfT9GU8gTp1kw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BBI.Common.Tests.BlinkConfigSerializationTest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BBI.Common.Tests.BlinkConfigSerializationTest.html",
+          "hash": "yeb3GjA0SedyOpD2Caxnbg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BBI.Common.Tests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BBI.Common.Tests.html",
+          "hash": "8U3A2IUjcir8PQI02v++EQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Blink1.Blink1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Blink1.Blink1.html",
+          "hash": "vPrgneiOWFx+ZkyQ6GA21A=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Blink1.Blink1Constant.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Blink1.Blink1Constant.html",
+          "hash": "HlZtu+jQydQMKKYBE7Zfxg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Blink1.Blink1Preset.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Blink1.Blink1Preset.html",
+          "hash": "lk6w6t78+8wyy+E8BmbOZw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Blink1.ColorProcessor.Cmyk.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Blink1.ColorProcessor.Cmyk.html",
+          "hash": "/tPjR3bX6GKfaUpZFioU7A=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Blink1.ColorProcessor.Hsb.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Blink1.ColorProcessor.Hsb.html",
+          "hash": "vqEb4bxkb0zli6FZB7faVg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Blink1.ColorProcessor.Hsl.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Blink1.ColorProcessor.Hsl.html",
+          "hash": "lw7Lo1LpbUw8WXjF6yev4g=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Blink1.ColorProcessor.HtmlColorName.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Blink1.ColorProcessor.HtmlColorName.html",
+          "hash": "SRCt5xWOx6aMmhSKN7pP/g=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Blink1.ColorProcessor.HtmlHexadecimal.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Blink1.ColorProcessor.HtmlHexadecimal.html",
+          "hash": "FH9GKzYzQG2hrxZGz+Dayg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Blink1.ColorProcessor.IColorProcessor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Blink1.ColorProcessor.IColorProcessor.html",
+          "hash": "A0UFLc9e5+vQE/U6zRuRgg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Blink1.ColorProcessor.Rgb.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Blink1.ColorProcessor.Rgb.html",
+          "hash": "2/ehi/WhWQDFqgIPepcmNw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Blink1.ColorProcessor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Blink1.ColorProcessor.html",
+          "hash": "4HTKeBHkBfRkP55KNhG10A=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Blink1.IBlink1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Blink1.IBlink1.html",
+          "hash": "N3F5Hgk7u9+plaueAwo8XQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Blink1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Blink1.html",
+          "hash": "2okHRfun/sqPGLprMWlkaQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Hid.HidAsyncState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Hid.HidAsyncState.html",
+          "hash": "7+0+JmxRGtRYtU9KeOTwhg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Hid.HidDevice.DeviceMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Hid.HidDevice.DeviceMode.html",
+          "hash": "Slc3PiLmWPriXuDbMOag9g=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Hid.HidDevice.InsertedEventHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Hid.HidDevice.InsertedEventHandler.html",
+          "hash": "+PKoJpWwxd4qpTIrVUWEcg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Hid.HidDevice.ReadCallback.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Hid.HidDevice.ReadCallback.html",
+          "hash": "yXrBItrOoDrsbfpuxmK5dg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Hid.HidDevice.ReadReportCallback.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Hid.HidDevice.ReadReportCallback.html",
+          "hash": "DqwOAJ0x+a1MqEjxUfDLqQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Hid.HidDevice.RemovedEventHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Hid.HidDevice.RemovedEventHandler.html",
+          "hash": "xBBt9ka6UDl7IzyfgrgJrg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Hid.HidDevice.WriteCallback.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Hid.HidDevice.WriteCallback.html",
+          "hash": "vkcP7YMYGrM0lH0a+9aSog=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Hid.HidDevice.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Hid.HidDevice.html",
+          "hash": "x6KYLgl38pc7Z+eyIJHQdA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Hid.HidDeviceAttributes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Hid.HidDeviceAttributes.html",
+          "hash": "1y49OBMlpkwb4ZUoLzGMig=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Hid.HidDeviceCapabilities.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Hid.HidDeviceCapabilities.html",
+          "hash": "apV1d+IK2JjHglTNLJFEtA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Hid.HidDeviceData.ReadStatus.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Hid.HidDeviceData.ReadStatus.html",
+          "hash": "z0TEYTjXRciCRz4LshvkJQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Hid.HidDeviceData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Hid.HidDeviceData.html",
+          "hash": "Ke8akEPrNTRbPe8gOTbSCQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Hid.HidDevices.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Hid.HidDevices.html",
+          "hash": "FgD9YlZnjKqci+nh9KsGag=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Hid.HidReport.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Hid.HidReport.html",
+          "hash": "Ubo1IdFDoGXWLRuK5uEAOw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Hid.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Hid.html",
+          "hash": "/y/4dX8nMlTqChsbB8Zihg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ThingM.Blink1.Blink1Info.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ThingM.Blink1.Blink1Info.html",
+          "hash": "RDQlKlbksKaEqJGl6oG5Sg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ThingM.Blink1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ThingM.Blink1.html",
+          "hash": "LF+oY0Opni5P5dWWJ0zqrQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html",
+          "hash": "XvVkPJJEquotIR4e7QvbcA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "documentation/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "documentation/intro.html",
+          "hash": "TLkaRI61RxP9s1YeKlEDGA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "WUsEIi1JbNtRyAE/2xZHAA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": true,
+        "incrementalPhase": "build"
+      },
+      "processors": {
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot suppport incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build"
+        },
+        "ConceptualDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build"
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build"
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": true,
+        "details": "Can support incremental post processing.",
+        "incrementalPhase": "postProcessing"
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
