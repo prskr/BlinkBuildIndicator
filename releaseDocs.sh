@@ -20,7 +20,7 @@ echo "Clear repo directory"
 git rm -r *
 
 echo "Copy documentation into the repo"
-cp -r $TEMP_REPO_DIR .
+cp -r $TEMP_DOC_DIR .
 
 echo "Push the new docs to the remote branch"
 git add . -A
