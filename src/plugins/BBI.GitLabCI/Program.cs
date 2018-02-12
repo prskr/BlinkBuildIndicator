@@ -8,8 +8,18 @@ using static BBI.Common.BBIConstants;
 
 namespace BBI.GitLabCI
 {
+    /// <summary>
+    ///     Entrypoint of the plugin
+    /// </summary>
     public static class Program
     {
+        
+        /// <summary>
+        /// Entrypoint method of the plugin
+        /// </summary>
+        /// <param name="args">
+        ///     CLI args
+        /// </param>
         public static void Main(string[] args)
         {
             Parser.Default.ParseArguments<PluginCliOptions>(args)
