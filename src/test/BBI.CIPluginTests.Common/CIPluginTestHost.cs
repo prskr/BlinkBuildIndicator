@@ -40,7 +40,7 @@ namespace BBI.CIPluginTests.Common
             }
         }
 
-        public async Task<CIResponse> ContactPlugin(string pluginName)
+        public async Task<CIResponse> ContactPlugin(string pluginName, CIRequest ciRequest)
         {
             if (!_plugins.ContainsKey(pluginName))
             {
@@ -49,11 +49,24 @@ namespace BBI.CIPluginTests.Common
             var channel = new Channel(BBIConstants.PLUGIN_HOST_IP, _plugins[pluginName], ChannelCredentials.Insecure);
             var pluginClient = new CIPlugin.CIPluginClient(channel);
 
-            var ciResponse = await pluginClient.GetCurrentStateAsync(new CIRequest());
+            var ciResponse = await pluginClient.GetCurrentStateAsync(ciRequest);
 
             await channel.ShutdownAsync();
 
             return ciResponse;
+        }
+
+        public async Task ShutdownPlugin(string pluginName)
+        {
+            if (!_plugins.ContainsKey(pluginName))
+            {
+                throw new PluginNotRegisteredException($"Plugin {pluginName} is not registered");
+            }
+            var channel = new Channel(BBIConstants.PLUGIN_HOST_IP, _plugins[pluginName], ChannelCredentials.Insecure);
+            var pluginClient = new CIPlugin.CIPluginClient(channel);
+            await pluginClient.ShutdownAsync(new Empty());
+
+            await channel.ShutdownAsync();
         }
     }
 }
